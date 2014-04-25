@@ -175,3 +175,17 @@ pseudoxml:
 	$(SPHINXBUILD) -b pseudoxml $(ALLSPHINXOPTS) $(BUILDDIR)/pseudoxml
 	@echo
 	@echo "Build finished. The pseudo-XML files are in $(BUILDDIR)/pseudoxml."
+
+github:
+	rm -rf ~/tmp/decoding-presub-docs
+	git clone -b gh-pages git@github.com:bewest/decoding-presub.git ~/tmp/decoding-presub-docs
+	cd ~/tmp/decoding-presub-docs; \
+	rm -rf *
+	cp -rf _build/html/* ~/tmp/decoding-presub-docs/
+	cd ~/tmp/decoding-presub-docs; \
+	touch .nojekyll ; \
+	git add . ; \
+	git commit -a -m "Updated the docs" ; \
+	git push -f origin gh-pages;
+	rm -rf ~/tmp/decoding-presub-docs
+
