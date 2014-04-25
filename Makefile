@@ -178,7 +178,7 @@ pseudoxml:
 
 github:
 	rm -rf ~/tmp/decoding-presub-docs
-	git clone -b gh-pages git@github.com:bewest/decoding-presub.git ~/tmp/decoding-presub-docs
+	git clone -b gh-pages git@github.com:medevice-users/decoding-presub.git ~/tmp/decoding-presub-docs
 	cd ~/tmp/decoding-presub-docs; \
 	rm -rf *
 	cp -rf _build/html/* ~/tmp/decoding-presub-docs/
