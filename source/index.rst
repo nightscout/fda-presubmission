@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to decoding-carelink FDA presubmission's documentation!
-===============================================================
+decoding-carelink FDA presubmission
+===================================
 
 Contents:
 
@@ -18,6 +18,20 @@ Contents:
   04-development-overview
   05-specific-questions
   06-feedback-methods
+
+
+Purpose
+-------
+This document it's `raw source`_ is `available online`_.
+The purpose is to create a framework for having a discussion with the FDA.
+
+.. _available online: http://medevice-users.github.io/decoding-presub/
+
+.. _raw source: https://github.com/medevice-users/decoding-presub
+
+.. note:
+  This is working draft.  When it is ready, it will be compiled as an ecopy and
+  submitted to the FDA in order to have a broader discussion.
 
 
 Indices and tables
