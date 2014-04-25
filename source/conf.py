@@ -19,6 +19,9 @@ import os
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #sys.path.insert(0, os.path.abspath('.'))
+# os.environ['PYTHONPATH'] = os.path.abspath('_ext')
+sys.path.insert(0, os.path.abspath('_ext'))
+# sys.path.insert(0, os.path.abspath('.'))
 
 # -- General configuration ------------------------------------------------
 
@@ -32,6 +35,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.pngmath',
     'rst2pdf.pdfbuilder',
+    'edit_on_github',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -350,3 +354,7 @@ pdf_style_path = [ '.', '_styles']
 # pdf_use_numbered_links = True
 # pdf_page_template = 'cutePage'
 # pdf_use_toc = True
+
+edit_on_github_project = 'medevice-users/decoding-presub'
+edit_on_github_branch = 'master'
+
