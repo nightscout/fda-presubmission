@@ -181,7 +181,7 @@ github:
 	git clone -b gh-pages git@github.com:medevice-users/decoding-presub.git ~/tmp/decoding-presub-docs
 	cd ~/tmp/decoding-presub-docs; \
 	rm -rf *
-	cp -rf _build/html/* ~/tmp/decoding-presub-docs/
+	cp -rf build/html/* ~/tmp/decoding-presub-docs/
 	cd ~/tmp/decoding-presub-docs; \
 	touch .nojekyll ; \
 	git add . ; \
