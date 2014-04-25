@@ -189,3 +189,8 @@ github:
 	git push -f origin gh-pages;
 	rm -rf ~/tmp/decoding-presub-docs
 
+pdf:
+	$(SPHINXBUILD) -b pdf $(ALLSPHINXOPTS) $(BUILDDIR)/pdf
+	@echo
+	@echo "Build finished.  The PDF files are in $(BUILDDIR)/pdf."
+

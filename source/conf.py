@@ -31,7 +31,7 @@ import os
 extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.pngmath',
-    #'rst2pdf.pdfbuilder',
+    'rst2pdf.pdfbuilder',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -186,6 +186,10 @@ htmlhelp_basename = 'decoding-carelinkFDApresubmissiondoc'
 # -- Options for LaTeX output ---------------------------------------------
 
 latex_elements = {
+  # http://stackoverflow.com/questions/5422997/sphinx-docs-remove-blank-pages-from-generated-pdfs
+  # remove blank pages?
+  'classoptions': ',openany,oneside',
+  'babel': '\\usepackage[english]{babel}',
 # The paper size ('letterpaper' or 'a4paper').
 #'papersize': 'letterpaper',
 
