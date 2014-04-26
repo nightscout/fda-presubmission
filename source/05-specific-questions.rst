@@ -70,7 +70,7 @@ how these commands are intended to be used with these devices?
     firmware, should the vendor share this information with users of
     the device?  Should it be in the instruction manual?
 
-Should MMT1's commands be documented so that users know what each
+Should MWT1's commands be documented so that users know what each
 command is intended to do?
 
 Fault / responsibility
@@ -80,6 +80,7 @@ If something goes wrong who is at fault?
 Depends on what goes wrong whether or not device was used according to
 intended use or not.  What is the intended use of the MMT-7305NA, how
 will users use it, how do users get support?
+
 
 
 
