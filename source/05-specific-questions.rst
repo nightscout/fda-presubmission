@@ -51,14 +51,18 @@ respond differently to different commands.  Are there any indications
 how these commands are intended to be used with these devices?
 
 * What if decocare only sends commands supported by each device?
+
   * Does it stay within the intended use of vendor?
+
 * What is intended use case for the remote control?
+
   * If the remote exchanges a message to bolus, a new tool, eg,
     ``mm-send-bolus-example.py`` both send the exact same message, 
     is the tool covered by the remote's use case?
 
 
 * Are there commands which trigger otherwise unexpected behavior?
+
   * Are there firmware bugs known to exist in different models, eg
     1.16 vs 1.17, suspend bug?
 
@@ -85,22 +89,26 @@ Future software devices
 Authors using decocare could create additional tools:
 
 * logging
+
   * log all history
   * query for recent history
 
 * audit
+
   * create log of device behavior
   * injury/adverse event reporting tool might
     automatically compile report of all injurious events in therapy
     history and submit to FDA
 
 * bolus wizard
+
   * bolus wizard on the web/browser
   * bolus wizard on mobile
   * bolus wizard from laptop
   * bolus wizard from data management software
 
 * artificial pancreas
+
   * auto suspend
   * auto temp basal
   * auto bolus
