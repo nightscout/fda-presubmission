@@ -8,17 +8,6 @@ which implements methods and functions to facilitate communication
 between Paradigm-compatible RF devices and data management application
 software using the Carelink USB stick from Medtronic (MMT-7305NA).
 
-The user's guide:
-http://www.medtronicdiabetes.com/sites/default/files/library/support/carelink_usb_user_guide.pdf
-indicates intended use is:
-
-    Indications for use The Medtronic CareLink™ USB is indicated for
-    use by patients at home and clinicians in a medical office setting
-    to facilitate communication between Medtronic diabetes therapy
-    management devices that use Paradigm-compatible RF telemetry
-    (MWT1)* and a personal computer that uses data management
-    application software.
-
 Device Description
 ==================
 
@@ -41,7 +30,10 @@ features, then execute their newly written source.
 
 The library contains a listing of different messages, commercially
 supported by Medtronic, allowing data management software to remotely
-communicate with compatible devices.
+communicate with compatible devices.  The messages, and the list of
+messages made available by the library is intended to correspond
+directly to the list of messages currently in use by Medtronic
+products.
 
 Dissemination
 #############
@@ -62,9 +54,9 @@ In order to run the software, the source must be retrieved, deployed
 and configured to run on a PC.  Currently the user must know how to
 perform these steps, the easiest way is on the commandline:
 
-    git clone https://github.com/bewest/decoding-carelink.git
-    cd decoding-carelink
-    sudo python setup.py install
+    | git clone https://github.com/bewest/decoding-carelink.git
+    | cd decoding-carelink
+    | sudo python setup.py install
 
 mm-* tools, investigational tools
 ---------------------------------

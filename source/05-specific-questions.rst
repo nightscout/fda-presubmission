@@ -2,6 +2,18 @@
 Specific Questions
 ==================
 
+Intended use
+-----------------
+
+* What is intended use of carelink stick MMT-7305NA?
+* What are intended use of commands/messages sent to MMT-7305NA from
+  application
+* What are the list of commands Medtronic supports?
+* Does Medtronic/FDA know of any bugs triggered by these commands
+  sent to/from MMT-7305NA.
+
+
+
 g. Specific Questions
 ---------------------
 
