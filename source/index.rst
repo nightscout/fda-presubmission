@@ -20,10 +20,12 @@ Contents:
   06-feedback-methods
 
 
-Purpose
--------
-This document it's `raw source`_ is `available online`_.
-The purpose is to create a framework for having a discussion with the FDA.
+About
+-----
+
+In open source fashion, this document's `raw source`_ and an html
+rendering is `available online`_.  The purpose is to create a
+framework for having a discussion with the FDA.
 
 .. _available online: http://medevice-users.github.io/decoding-presub/
 
