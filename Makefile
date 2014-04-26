@@ -176,12 +176,13 @@ pseudoxml:
 	@echo
 	@echo "Build finished. The pseudo-XML files are in $(BUILDDIR)/pseudoxml."
 
-github:
+github: latexpdf
 	rm -rf ~/tmp/decoding-presub-docs
 	git clone -b gh-pages git@github.com:medevice-users/decoding-presub.git ~/tmp/decoding-presub-docs
 	cd ~/tmp/decoding-presub-docs; \
 	rm -rf *
 	cp -rf build/html/* ~/tmp/decoding-presub-docs/
+	cp build/latex/decoding-carelinkFDApresubmission.pdf ~/tmp/decoding-presub-docs/
 	cd ~/tmp/decoding-presub-docs; \
 	touch .nojekyll ; \
 	git add . ; \
