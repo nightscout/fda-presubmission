@@ -23,6 +23,27 @@ Intended Use of decocare
 Provides methods and utilities to facilitate communication between
 Paradigm-compatible devices and data management application software.
 
+Observing device behavior
++++++++++++++++++++++++++
+
+Decocare helps observe the behavior of MMT-7305NA and compatible
+medical devices in greater detail.  The tools expose diagnostic
+information regarding successful transmission of messages to the
+device, as well as allows users to precisely audit and log device
+behavior.
+
+A user may use the ``mm-send-comm.py`` tool to request and save a page
+of data, as it existed on the pump.
+
+Creating data management software
++++++++++++++++++++++++++++++++++
+
+Decocare allows python authors to create data management tools.
+Decocare transfers messages from a data management application
+to remote devices and back.  An application developer can use this
+facility to create a program which uses the ``ReadHistoryData``
+command, decodes the information, and presents it to the user or saves
+it for later use.
 
 Frequency of use
 ^^^^^^^^^^^^^^^^
