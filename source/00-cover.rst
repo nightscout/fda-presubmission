@@ -6,18 +6,14 @@ Cover letter
 a. Cover Letter
 ---------------
 
-Please include a cover letter that clearly states the reason for the submission
-in the reference line (e.g., Pre-Sub for a 510(k), Pre-Sub for an IDE, Pre-Sub
-for an IND or BLA) and, for CDRH submissions, please clearly indicate that the
-submission is a Pre-Sub on the CDRH Premarket Review Submission Cover Sheet.
-24 Use of the CDRH Premarket Review Submission Cover Sheet for submissions made
-to CBER is highly recommended. 
+This presubmission is to discuss open source projects and FDA
+oversight.  Specifically, this is to discuss the Nightscout project.
 
-===========
-Pre-Sub for
-===========
+======================
+Pre-Sub for Nightscout
+======================
 
- 
+To whom it may concern, Stayce Beck, et al. 
 
 For CDRH submissions, the addressee may be the appropriate branch or branch
 chief if the applicant knows where the subject device or similar devices are
@@ -26,11 +22,10 @@ Director or Regulatory Project Manager where the subject device or similar
 devices are reviewed. The cover letter should 
   
 
-    http://www.fda.gov/AboutFDA/CentersOffices/OfficeofMedicalProductsandTobacco/CDRH/CDRHReports/ucm27
+    http://www.fda.gov/AboutFDA/CentersOffices/OfficeofMedicalProductsandTobacco/CDRH/CDRHReports/ucm279288.htm 24 CDRH Premarket Review Submission Cover Sheet available at 
 
-    9288.htm 24 CDRH Premarket Review Submission Cover Sheet available at 
-
-    http://www.fda.gov/downloads/AboutFDA/ReportsManualsForms/Forms/UCM080872.pdf ontains Nonbinding Recommendations 
+    http://www.fda.gov/downloads/AboutFDA/ReportsManualsForms/Forms/UCM080872.pdf
+    Contains Nonbinding Recommendations 
 
 
 contain complete contact information (i.e., the company name, address, contact

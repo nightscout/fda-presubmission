@@ -1,108 +1,67 @@
 
-===============
-ComLink2 Driver
-===============
+==========
+Nightscout
+==========
 
-The device, ``decocare``, is a comlink2 driver, a software library,
-which implements methods and functions to facilitate communication
-between Paradigm-compatible RF devices and data management application
-software using the Carelink USB stick from Medtronic (MMT-7305NA).
+Nightscout is a suite of open source projects.  A smartphone provides
+ubiquitous network connectivity to Dexcom's wireless receiver.  After
+a polling period the last reading from the Dexcom reciever is
+transmitted to a database in the cloud.  A website renders
+near-real-time views of the records stored.
 
 Device Description
 ==================
 
-decocare - the library
-----------------------
-Decocare is the name of a python package, a re-usable suite of python
-source modules, which implements functions and methods to encode and
-decode messages compatible with the ``ComLink2`` protocol used by the
-MMT-7305NA Carelink USB stick.
+Nightscout project
+------------------
+The Nightscout project is actually a suite of several independent
+projects:
 
-Usage
-#####
+* dexcom-uploder - Android app to poll dexcom, upload to cloud
+* cgm-remote-monitor - A node.js web application that displays values
+  stored by the Dexcom.
+* cgm-pebble - A pebble watchface that reads and displays values from
+  cgm-remote-monitor.
 
-The library allows authors of python source code to write methods
-needed to implement data management software.
-In order to use the library, authors need to download the python
-package, configure their local system to use the module, write new
-python source code implementing the desired remote management
-features, then execute their newly written source.
+cgm-remote-monitor
+##################
 
-The library contains a listing of different messages, commercially
-supported by Medtronic, allowing data management software to remotely
-communicate with compatible devices.  The messages, and the list of
-messages made available by the library is intended to correspond
-directly to the list of messages currently in use by Medtronic
-products.
+This is a web app which simulates the display of a Dexcom receiver.
+In addition to showing the last known glucose level, it displays when
+the reading was taken, and offers a way to pan several hours
+retrospectively.
 
-Dissemination
-#############
-The source code is distributed using ``git``, a version control
-system, ensuring that changes or versions of the source code are kept
-in sync.
 
-A user must know how to configure and use python modules and git in
-order to install the software on a local PC.
+dexcom-uploader
+###############
 
-The git repo, is hosted online https://github.com/bewest/decoding-carelink
-available as an educational resource for discussing potential
-applications of remote management software.
+`dexcom-uploader` is an Android application implemented in java.  The
+application starts when a Dexcom receiver is detected using the
+operating system's usb management system.  The application reads data
+from the serial port made available by Dexcom's usb connection, and
+uploads the latest record to a specified data backend.  The backend
+may either be a RESTful API or a mongo db, and is configured using a
+preferences panel inthe application.
 
-Installing
-^^^^^^^^^^
-In order to run the software, the source must be retrieved, deployed
-and configured to run on a PC.  Currently the user must know how to
-perform these steps, the easiest way is on the commandline:
+cgm-pebble
+##########
 
-    | git clone https://github.com/bewest/decoding-carelink.git
-    | cd decoding-carelink
-    | sudo python setup.py install
+`cgm-pebble` is a C and javascript watchface developed using
+PebbleSDK.  The javascript code runs on a Smartphone maintaining
+bluetooth connectivity to the Pebble watch.  The javascript code
+retrieves information from `cgm-remote-monitor` and sends the last
+reading to over bluetooth to the pebble watch.  The C code runs on the
+watch, receiving messages over bluetooth from a smarthphone, and
+rendering the date, time, value, and trend reported by
+`dexcom-uploader`.
 
-mm-* tools, investigational tools
----------------------------------
+Development
+-----------
+Development takes place using github, from the nightscout organization
+page: https://github.com/nightscout/.
+Modifications, upgrades, development, and issue tracking happen using
+the resources connected to assets shared by a community of people.
 
-Another set of devices are tools showing example usage of the library,
-and tools to investigate how the library and the serial protocol are
-used to communicate with the remote equipment work.
-
-These tools facilitate use of the decocare library to exchange
-messages with the usb stick, to audit the operation of the usb stick,
-as well as to exchange and record messages with remote RF equipment
-for debugging and analysis.
-
-After configuring and installing the tool, these tools allow
-initializing RF communications with compatible devices, exchanging a
-series of predefined or customized commands, and saving the results
-for later perusal.
-
-These tools support communicating with remote Paradigm-compatible
-equipment using commands supported by Medtronic in other commercial
-products, in exactly the same way as those products, from the command
-line, shell environment.  The following options allow users to control
-how remote equipment is uniquey addressed or distinguished from other
-compatible devices, and how communication begins.
-
-``--init``
-    Send remote signal to initialize RF communication.
-
-``--serial``
-    Only communicates with the remote equipment responding to this
-    serial number.  This matches the number, I.E. on the back of
-    Medtronic insulin pumps.
-
-mm-send-comm.py
-^^^^^^^^^^^^^^^
-
-``mm-send-comm.py`` allows sending or customizing commands Medtronic
-intends to support using their own software and devices.
-
-mm-latest.py
-^^^^^^^^^^^^^^^
-
-``mm-latest.py`` Example showing construction of data management
-software using the Carelink usb and protocol.  Uses same commands as
-Carelink in a demonstration to query the given minutes of history and
-pump activity.
 
 c. Device Description
 ---------------------

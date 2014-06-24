@@ -177,18 +177,19 @@ pseudoxml:
 	@echo "Build finished. The pseudo-XML files are in $(BUILDDIR)/pseudoxml."
 
 github: latexpdf
-	rm -rf ~/tmp/decoding-presub-docs
-	git clone -b gh-pages git@github.com:medevice-users/decoding-presub.git ~/tmp/decoding-presub-docs
-	cd ~/tmp/decoding-presub-docs; \
+	rm -rf ~/tmp/nightscout-fda-presubmission-docs
+	git clone -b gh-pages
+	git@github.com:nightscout/fda-presubmission.git ~/tmp/nightscout-fda-presubmission-docs
+	cd ~/tmp/nightscout-fda-presubmission-docs; \
 	rm -rf *
-	cp -rf build/html/* ~/tmp/decoding-presub-docs/
-	cp build/latex/decoding-carelinkFDApresubmission.pdf ~/tmp/decoding-presub-docs/
-	cd ~/tmp/decoding-presub-docs; \
+	cp -rf build/html/* ~/tmp/nightscout-fda-presubmission-docs/
+	cp build/latex/nightscout-fda-presubmission.pdf ~/tmp/nightscout-fda-presubmission-docs/
+	cd ~/tmp/nightscout-fda-presubmission-docs; \
 	touch .nojekyll ; \
 	git add . ; \
 	git commit -a -m "Updated the docs" ; \
 	git push -f origin gh-pages;
-	rm -rf ~/tmp/decoding-presub-docs
+	rm -rf ~/tmp/nightscout-fda-presubmission-docs
 
 pdf:
 	$(SPHINXBUILD) -b pdf $(ALLSPHINXOPTS) $(BUILDDIR)/pdf

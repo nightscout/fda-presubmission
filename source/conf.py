@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# decoding-carelink FDA presubmission documentation build configuration file, created by
+# Nightscout FDA presubmission documentation build configuration file, created by
 # sphinx-quickstart on Fri Apr 25 13:07:17 2014.
 #
 # This file is execfile()d with the current directory set to its
@@ -51,8 +51,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'decoding-carelink FDA presubmission'
-copyright = u'2014, Ben West'
+project = u'Nightscout FDA presubmission'
+copyright = u'2014, Nightscout contributors'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -184,7 +184,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'decoding-carelinkFDApresubmissiondoc'
+htmlhelp_basename = 'nightscout-fda-presubmission'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -208,8 +208,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'decoding-carelinkFDApresubmission.tex', u'decoding-carelink FDA presubmission Documentation',
-   u'Ben West', 'manual'),
+  ('index', 'nightscout-fda-presubmission.tex', u'Nightscout FDA presubmission',
+   u'Nightscout contributors', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -238,8 +238,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'decoding-carelinkfdapresubmission', u'decoding-carelink FDA presubmission Documentation',
-     [u'Ben West'], 1)
+    ('index', 'Nightscout FDA presubmission', u'Nightscout FDA presubmission Documentation',
+     [u'Nightscout contributors'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -252,8 +252,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'decoding-carelinkFDApresubmission', u'decoding-carelink FDA presubmission Documentation',
-   u'Ben West', 'decoding-carelinkFDApresubmission', 'One line description of project.',
+  ('index', 'nightscout-fda-presubmission', u'Nightscout FDA presubmission Documentation',
+   u'Nightscout contributors', 'nightscout-fda-presubmission', 'One line description of project.',
    'Miscellaneous'),
 ]
 
@@ -273,13 +273,13 @@ texinfo_documents = [
 # -- Options for Epub output ----------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'decoding-carelink FDA presubmission'
-epub_author = u'Ben West'
-epub_publisher = u'Ben West'
-epub_copyright = u'2014, Ben West'
+epub_title = u'Nightscout FDA presubmission'
+epub_author = u'Nightscout contributors'
+epub_publisher = u'Nightscout contributors'
+epub_copyright = u'2014, Nightscout contributors'
 
 # The basename for the epub file. It defaults to the project name.
-#epub_basename = u'decoding-carelink FDA presubmission'
+#epub_basename = u'Nightscout FDA presubmission'
 
 # The HTML theme for the epub output. Since the default themes are not optimized
 # for small screen space, using the same theme for HTML and epub output is
@@ -340,7 +340,7 @@ epub_exclude_files = ['search.html']
 #epub_use_index = True
 # configuring pdf
 pdf_documents = [
-  ('index', 'Presubmission', "FDA Presubmission", 'Ben West'),
+  ('index', 'nightscout-fda-presubmission', "FDA Presubmission", 'Nightscout contributors'),
 ]
 pdf_stylesheets = [
   'sphinx', 'kerning', 'a4'
@@ -355,6 +355,6 @@ pdf_style_path = [ '.', '_styles']
 # pdf_page_template = 'cutePage'
 # pdf_use_toc = True
 
-edit_on_github_project = 'medevice-users/decoding-presub'
+edit_on_github_project = 'nightscout/fda-presubmission'
 edit_on_github_branch = 'master'
 

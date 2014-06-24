@@ -2,55 +2,32 @@
 Proposed Use
 ============
 
-Intended Use of MMT-7305NA
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+Nightscout
+^^^^^^^^^^
+Nightscout is intended to be used as part of a data management system.
+The system provides for a "glanceable" secondary display of the
+information originating from the Dexcom CGM.  A website allows the
+display to be presented on any device which can display websites to
+duplicate the display of the Dexcom.
 
-Decocare is an open source driver for a commercially available device,
-the MMT-7305NA.
-The user's guide:
-http://www.medtronicdiabetes.com/sites/default/files/library/support/carelink_usb_user_guide.pdf
-indicates intended use is:
 
-    Indications for use The Medtronic CareLink™ USB is indicated for
-    use by patients at home and clinicians in a medical office setting
-    to facilitate communication between Medtronic diabetes therapy
-    management devices that use Paradigm-compatible RF telemetry
-    (MWT1)* and a personal computer that uses data management
-    application software.
+Single pane of glass
+++++++++++++++++++++
+The website url is typically shared with caregivers and interested
+parties.  This allows multiple people to monitor a Dexcom user's
+glucose levels from concurrently from any internet connection.
 
-Intended Use of decocare
-^^^^^^^^^^^^^^^^^^^^^^^^
-Provides methods and utilities to facilitate communication between
-Paradigm-compatible devices and data management application software.
+Glanceability
++++++++++++++
+Displays are duplicated in multiple redundant locations.  This
+alleviates people from needing to physically locate and attend to the
+receiver.  The lowered burden enables people to be more persistently
+aware, and therefore respond to scenarios with treatment with greater
+ease.
 
-Observing device behavior
-+++++++++++++++++++++++++
-
-Decocare helps observe the behavior of MMT-7305NA and compatible
-medical devices in greater detail.  The tools expose diagnostic
-information regarding successful transmission of messages to the
-device, as well as allows users to precisely audit and log device
-behavior.
-
-A user may use the ``mm-send-comm.py`` tool to request and save a page
-of data, as it existed on the pump.
-
-Creating data management software
-+++++++++++++++++++++++++++++++++
-
-Decocare allows python authors to create data management tools.
-Decocare transfers messages from a data management application
-to remote devices and back.  An application developer can use this
-facility to create a program which uses the ``ReadHistoryData``
-command, decodes the information, and presents it to the user or saves
-it for later use.
-
-Frequency of use
-^^^^^^^^^^^^^^^^
-
-We are unsure what Medtronic's recommendation is regarding how
-frequently remote equipment may communicate with application software.
-
+For example, in scenarios where no therapeutic action is required, but
+the glucose levels must be considered, the glanceable display
+eliminates the 30 second interuption to an existing workflow.
 
 d. Proposed Intended Use/Indications for Use
 --------------------------------------------
