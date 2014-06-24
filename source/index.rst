@@ -1,9 +1,9 @@
-.. decoding-carelink FDA presubmission documentation master file, created by
+.. nightscout FDA presubmission documentation master file, created by
    sphinx-quickstart on Fri Apr 25 13:07:17 2014.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-decoding-carelink FDA presubmission
+Nightscout FDA presubmission
 ===================================
 
 Contents:
