@@ -178,8 +178,7 @@ pseudoxml:
 
 github: latexpdf
 	rm -rf ~/tmp/nightscout-fda-presubmission-docs
-	git clone -b gh-pages
-	git@github.com:nightscout/fda-presubmission.git ~/tmp/nightscout-fda-presubmission-docs
+	git clone -b gh-pages git@github.com:nightscout/fda-presubmission.git ~/tmp/nightscout-fda-presubmission-docs
 	cd ~/tmp/nightscout-fda-presubmission-docs; \
 	rm -rf *
 	cp -rf build/html/* ~/tmp/nightscout-fda-presubmission-docs/
