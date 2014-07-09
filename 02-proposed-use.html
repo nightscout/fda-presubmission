@@ -62,7 +62,9 @@ duplicate the display of the Dexcom.</p>
 <h3>Single pane of glass<a class="headerlink" href="#single-pane-of-glass" title="Permalink to this headline">¶</a></h3>
 <p>The website url is typically shared with caregivers and interested
 parties.  This allows multiple people to monitor a Dexcom user&#8217;s
-glucose levels from concurrently from any internet connection.</p>
+glucose levels from concurrently from any internet connection.
+Multiple redundant displays eliminates transcription error and raises
+the fidelity of communicating current therapy status.</p>
 </div>
 <div class="section" id="glanceability">
 <h3>Glanceability<a class="headerlink" href="#glanceability" title="Permalink to this headline">¶</a></h3>
@@ -74,6 +76,85 @@ ease.</p>
 <p>For example, in scenarios where no therapeutic action is required, but
 the glucose levels must be considered, the glanceable display
 eliminates the 30 second interuption to an existing workflow.</p>
+<div class="section" id="reliance-on-pre-existing-work">
+<h4>Reliance on pre-existing work<a class="headerlink" href="#reliance-on-pre-existing-work" title="Permalink to this headline">¶</a></h4>
+<p>The Nightscout project relies on commodity components, as well as the
+excellent work from the folks at Dexcom.  The android software
+interacting with the Dexcom receiver attempts to faithfully transmit
+data from the receiver to a configured storage/data management service
+hosted on the internet.  The android software is agnostic of the data
+management service, and can be configured to work with several
+different data management service providers.  It also attempts to
+behave in the way that Dexcom expects all data management systems to
+behave.  An open analysis of the source code listings and comparisons
+of behavior reveals that the behavior of the Dexcom receiver is
+unaffected when this system is in use.  The use or non-use of
+Nightscout has no observable difference in the Dexcom equipment or
+system, either while Dexcom is in use or after.  Eg, we believe that
+Nightscout has no effect on Dexcom&#8217;s performance, quality, or safety.</p>
+<p>When Nightscout is in use, the community recommends that users
+maintain their normal therapy.  Nightscout should not alter therapy
+plans or decisions.  Many of the community members recommend falling
+back to baby monitors, phone, sms, smbg finger-sticks, and physically
+checking the Dexcom receiver as tools to augment therapy, even while
+Nightscout is in use.
+The guiding philosophy behind this advice is that technology is a tool
+for managing therapy; that people administer therapy, not technology.
+Nightscout is another tool using commonly available technology, like
+baby-monitors, to bring diabetes therapy, specifically communicating
+current satus of therapy, more in line with the way the users of these
+tools, like Dexcom, feel is acceptable.</p>
+</div>
+<div class="section" id="uses-of-nightscout">
+<h4>Uses of Nightscout<a class="headerlink" href="#uses-of-nightscout" title="Permalink to this headline">¶</a></h4>
+<p>Nightscout is useful any time remote near-real-time monitoring of
+Dexcom readings are desirable.  People with diabetes find it useful to
+keep mindfulness of glucose levels while biking or other activities
+requiring both hands.  People with diabetes find it useful for sharing
+and gaining empathy of their glycaemic states.</p>
+<p>Due to the ease of use, parents have been able to co-ordinate with
+school Nurse to prevent or treat injuries which are otherwise common.
+In some cases, use of Nightscout has helped gain insight into how
+common these injuries are, and we believe that the community
+aggregator can be used to report these injuries to the FDA for
+increased oversight of Dexcom and Medtronic devices in the
+marketplace.  The community has also received reports of some parents
+using Nightscout to co-ordinate sleep-overs or camp visits, and in
+some cases walks with Grandpa, many for the first time, that would not
+other wise happen.  They all cite Nightscout&#8217;s remote telemetry in
+liberating these activities, in some cases with pictures indicating
+injuries staved off or critical rescue care co-ordinated.</p>
+<p>Adult users have cited Nightscout in increasing discretion.  A common
+complaint among users of type 1 diabetes medical equipment is that
+the mandated use of the equipment combined with the time it takes to
+use the equipment often presents the unknowing public with a rude
+experience.  It often appears that a PWD is ignoring someone by
+favoring a phone or pager or just producing rude beeps.  When
+Nightscout is in use, the requirement to touch one of these medical
+devices disappears, which allows incorporating mindfulness more often
+and in a variety of different ways into the every day work flow.  As a
+result, fewer interuptions from physically touching the medical device
+increases discretion because social disruptions are also reduced.</p>
+</div>
+<div class="section" id="requirements">
+<h4>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h4>
+</div>
+</div>
+<div class="section" id="nightscout-uploader-device">
+<h3>Nightscout uploader device<a class="headerlink" href="#nightscout-uploader-device" title="Permalink to this headline">¶</a></h3>
+<p>Android smartphone capable of &#8220;USB OTG&#8221; capability.  These are
+commonly available.  WIFI only versions, known as &#8220;android mini-pcs&#8221;
+or and &#8220;Android TV box&#8221; are also commonly available.  The prices vary
+widely from vendor to vendor, and depending on the cell network
+carrier subsidies.</p>
+<p>Without any help, the DIY version requires downloading the source code
+from the internet.  Google&#8217;s Android software development kit is
+required to configure and compile the source listings from the git
+repo.  This process requires that users know, or learn how to, prepare
+their device for debugging, go through basic debugging steps in order
+to configure, compile, and deploy the software as binary android
+package, and then install and run the software on their own
+smartphone.</p>
 <div class="section" id="d-proposed-intended-use-indications-for-use">
 <h4>d. Proposed Intended Use/Indications for Use<a class="headerlink" href="#d-proposed-intended-use-indications-for-use" title="Permalink to this headline">¶</a></h4>
 <p>Please provide sufficient information regarding the proposed intended
@@ -111,6 +192,12 @@ Section F of Appendix 1 for more detailed information).</p>
 <li><a class="reference internal" href="#nightscout">Nightscout</a><ul>
 <li><a class="reference internal" href="#single-pane-of-glass">Single pane of glass</a></li>
 <li><a class="reference internal" href="#glanceability">Glanceability</a><ul>
+<li><a class="reference internal" href="#reliance-on-pre-existing-work">Reliance on pre-existing work</a></li>
+<li><a class="reference internal" href="#uses-of-nightscout">Uses of Nightscout</a></li>
+<li><a class="reference internal" href="#requirements">Requirements</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#nightscout-uploader-device">Nightscout uploader device</a><ul>
 <li><a class="reference internal" href="#d-proposed-intended-use-indications-for-use">d. Proposed Intended Use/Indications for Use</a></li>
 </ul>
 </li>
