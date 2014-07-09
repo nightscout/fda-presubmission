@@ -51,16 +51,98 @@
             
   <div class="section" id="overview-of-product-development">
 <h1>Overview of Product Development<a class="headerlink" href="#overview-of-product-development" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="development-of-nightscout">
-<h2>Development of Nightscout<a class="headerlink" href="#development-of-nightscout" title="Permalink to this headline">¶</a></h2>
-<p>A loose coallition of individuals all corroborate using tools that are
-in common use across the internet.  The Nightscout project came about
-after several individuals disatisfied with how their diabetes data was
-being treated and presented to them needed a better way to manage and
-view the data.</p>
-<p>Git is used to track proposed changes to the source code.</p>
+<div class="section" id="community-based-social-technical-development">
+<h2>Community based, social technical development<a class="headerlink" href="#community-based-social-technical-development" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="nightscout-begins">
+<h3>Nightscout begins<a class="headerlink" href="#nightscout-begins" title="Permalink to this headline">¶</a></h3>
+<p>As an open source project, the entire source code came into existence
+when people affected by type 1 diabetes with access to the best and
+safest therapy options found themselves unable to obtain therapy
+without any adverse events.  In order to help monitor, communicate,
+and understand therapy, a few individuals created a data management
+system using commodity equipment allowing them to easily monitor the
+CGM without requiring physical access to the CGM receiver.  Spurred by
+the improved family relationships and finding therapy easier to track,
+communicate, and manage, more and more people have added small
+improvements or helped others to gain liberties on their own.  Many of
+these individuals cite &#8220;keeping their own children safe&#8221; as reasons
+for beginning their involvement with the project.</p>
+<p>As of July 1, 2014, a dozen or so like-minded individuals record all
+proposed changes in their own Github forks or Github branches
+dedicated to discussing improvements or changes to a code base that is
+in active use by several dozen individuals and families.  After the
+community reviews and tests these proposals in a public audit called a
+&#8220;pull request,&#8221; one of the core contributors accepts the changes into
+the &#8220;master&#8221; branch.  This workflow is sometimes called &#8220;gitflow&#8221;
+<a class="reference external" href="http://nvie.com/posts/a-successful-git-branching-model/">http://nvie.com/posts/a-successful-git-branching-model/</a>.</p>
+<p>After the &#8220;master&#8221; branch has updated with changes relevant to the
+community, specially crafted pull requests allow tracking the exact
+git deltas necessary to bring another repo up to date with the
+community accepted versions.  When community members report bugs, this
+tracking system allows developers to reproduce and co-ordinate fixes,
+in some cases specifically tailored to members&#8217; needs.</p>
+<p>For example, in one instance, a mom from outside the U.S. needed
+displays in mmol/l vs mg/dl.  A group of interested members
+teamed up to work on special mmol/l versions.  The member actually
+completed the required changes, sharing the needed deltas with the
+group.  As a result, we were able to re-use these same git tracking
+methods to compare and issue updates specifically for these users
+needing mmol/l.</p>
+</div>
+<div class="section" id="open-source-methodology">
+<h3>Open source methodology<a class="headerlink" href="#open-source-methodology" title="Permalink to this headline">¶</a></h3>
+<p>The development of Nightscout as an open source project follows a
+predictable development pattern to identify issues, incorporate bug
+fixes, as well as develop new features.  The model, as discussed by
+Gabriel Coleman in Coding Freedom, <a class="reference external" href="http://codingfreedom.com/">http://codingfreedom.com/</a> relies
+heavily on an open review process to share and distribute
+improvements.</p>
+<p>The Software Freedom Law Center
+<a class="reference external" href="http://www.softwarefreedom.org/resources/2010/transparent-medical-devices.pdf">http://www.softwarefreedom.org/resources/2010/transparent-medical-devices.pdf</a></p>
+</div>
+<div class="section" id="known-issues">
+<h3>Known issues<a class="headerlink" href="#known-issues" title="Permalink to this headline">¶</a></h3>
+<p>There are several proposed improvements and known issues.  Notably,
+the system as-is is not HIPAA compliant.  One of the key features in
+this system that has helped to liberate people, and thus make them
+safer, is the ease of use that accompanies pubically accessible data.
+While we will adopt optional controls for authorizing and accessing
+data, parents of this system value easily sharing data with a school
+nurse with minimum hassle.</p>
+</div>
+</div>
+<div class="section" id="future-plans">
+<h2>Future plans<a class="headerlink" href="#future-plans" title="Permalink to this headline">¶</a></h2>
+<p>The sponsors would like to discuss appropriate regulatory controls
+that protect open source authors&#8217; free speech as well as provides FDA
+with an appropriate framework to fulfill their mission.</p>
+<div class="section" id="oversight">
+<h3>Oversight<a class="headerlink" href="#oversight" title="Permalink to this headline">¶</a></h3>
+<p>Given the community&#8217;s frustration with safety in available medical
+devices to manage type 1 diabetes therapy, we believe there are
+opportunities for open source authors and FDA to work together.  One
+such opportunity is in post-market surveillance.  We have developed an
+aggregator which re-displays de-personalized many Nightscout remote
+monitors in a single &#8220;spaghetti plot.&#8221;  We propose modifying this
+aggregator to automatically compile and submit reports to the FDA in
+order to aide in post market surveillance of devices used in diabetes
+therapy.</p>
+</div>
+<div class="section" id="integration">
+<h3>Integration<a class="headerlink" href="#integration" title="Permalink to this headline">¶</a></h3>
+<p>In the interest of safety, we need a single display to contextually
+manage type 1 diabetes.  We will add data transfer from Medtronic
+insulin pumps to obtain &#8220;treatment&#8221; data consisting of the bolus
+wizard and bolus records.  Additionally, the display will
+automatically show both the treatment data, carbohydrates, insulin,
+and carb ration, from the insulin pump overlaid with glucose readings
+from the Dexcom CGM.</p>
+<p>In addition, we will also explore integrating with many other health,
+fitness, and nutrition APIs.</p>
+<p>We will follow up with additional pre-subs if required to discuss
+further development efforts.</p>
 <div class="section" id="instructions">
-<h3>Instructions<a class="headerlink" href="#instructions" title="Permalink to this headline">¶</a></h3>
+<h4>Instructions<a class="headerlink" href="#instructions" title="Permalink to this headline">¶</a></h4>
 <p>Please provide an overview of the product development, including an
 outline of nonclinical and clinical testing either planned or already
 completed. However, please note that our review of a Pre-Sub will not
@@ -70,6 +152,7 @@ collected.</p>
 part of this section, please try to include only those that are
 relevant to the questions you are asking.  Additional articles can be
 provided in any subsequent marketing application or IDE.</p>
+</div>
 </div>
 </div>
 </div>
@@ -83,8 +166,18 @@ provided in any subsequent marketing application or IDE.</p>
   <h3><a href="index.html">Table Of Contents</a></h3>
   <ul>
 <li><a class="reference internal" href="#">Overview of Product Development</a><ul>
-<li><a class="reference internal" href="#development-of-nightscout">Development of Nightscout</a><ul>
+<li><a class="reference internal" href="#community-based-social-technical-development">Community based, social technical development</a><ul>
+<li><a class="reference internal" href="#nightscout-begins">Nightscout begins</a></li>
+<li><a class="reference internal" href="#open-source-methodology">Open source methodology</a></li>
+<li><a class="reference internal" href="#known-issues">Known issues</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#future-plans">Future plans</a><ul>
+<li><a class="reference internal" href="#oversight">Oversight</a></li>
+<li><a class="reference internal" href="#integration">Integration</a><ul>
 <li><a class="reference internal" href="#instructions">Instructions</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
