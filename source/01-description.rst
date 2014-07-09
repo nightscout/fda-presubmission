@@ -125,46 +125,6 @@ are also recommendations, optimized for cost and predictability, on
 which service providers are available, as well as how to work with
 those service providers.
 
-Community, social development
------------------------------
-
-As an open source project, the entire source code came into existence
-when people affected by type 1 diabetes with access to the best and
-safest therapy options found themselves unable to obtain therapy
-without any adverse events.  In order to help monitor, communicate,
-and understand therapy, a few individuals created a data management
-system using commodity equipment allowing them to easily monitor the
-CGM without requiring physical access to the CGM receiver.  Spurred by
-the improved family relationships and finding therapy easier to track,
-communicate, and manage, more and more people have added small
-improvements or helped others to gain liberties on their own.  Many of
-these individuals cite "keeping their own children safe" as reasons
-for beginning their involvement with the project.
-
-As of July 1, 2014, a dozen or so like-minded individuals record all
-proposed changes in their own Github forks or Github branches
-dedicated to discussing improvements or changes to a code base that is
-in active use by several dozen individuals and families.  After the
-community reviews and tests these proposals in a public audit called a
-"pull request," one of the core contributors accepts the changes into
-the "master" branch.  This workflow is sometimes called "gitflow"
-http://nvie.com/posts/a-successful-git-branching-model/.
-
-After the "master" branch has updated with changes relevant to the
-community, specially crafted pull requests allow tracking the exact
-git deltas necessary to bring another repo up to date with the
-community accepted versions.  When community members report bugs, this
-tracking system allows developers to reproduce and co-ordinate fixes,
-in some cases specifically tailored to members' needs.
-
-For example, in one instance, a mom from outside the U.S. needed
-displays in mmol/l vs mg/dl.  A group of interested members
-teamed up to start on special mmol/l versions.  The member actually
-completed the required changes, sharing the needed deltas with the
-group.  As a result, we were able to re-use these same git tracking
-methods to compare and issue updates specifically for these users
-needing mmol/l.
-
 
 
 
