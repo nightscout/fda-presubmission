@@ -81,8 +81,8 @@ git deltas necessary to bring another repo up to date with the
 community accepted versions.  When community members report bugs, this
 tracking system allows developers to reproduce and co-ordinate fixes,
 in some cases specifically tailored to members&#8217; needs.</p>
-<p>For example, in one instance, a mom from outside the U.S. needed
-displays in mmol/l vs mg/dl.  A group of interested members
+<p>For example, in one instance, a several individuals outside the U.S.
+needed displays in mmol/l vs mg/dl.  A group of interested members
 teamed up to work on special mmol/l versions.  The member actually
 completed the required changes, sharing the needed deltas with the
 group.  As a result, we were able to re-use these same git tracking
@@ -94,11 +94,17 @@ needing mmol/l.</p>
 <p>The development of Nightscout as an open source project follows a
 predictable development pattern to identify issues, incorporate bug
 fixes, as well as develop new features.  The model, as discussed by
-Gabriel Coleman in Coding Freedom, <a class="reference external" href="http://codingfreedom.com/">http://codingfreedom.com/</a> relies
-heavily on an open review process to share and distribute
-improvements.</p>
-<p>The Software Freedom Law Center
-<a class="reference external" href="http://www.softwarefreedom.org/resources/2010/transparent-medical-devices.pdf">http://www.softwarefreedom.org/resources/2010/transparent-medical-devices.pdf</a></p>
+Gabriel Coleman in <a class="reference external" href="http://codingfreedom.com/">Coding Freedom</a> relies heavily on an open review
+process to share and distribute improvements.</p>
+<p>The Software Freedom Law Center, in <a class="reference external" href="http://www.softwarefreedom.org/resources/2010/transparent-medical-devices.pdf">Transparent medical devices</a>,
+also outlines the need for greater transparency in the operation of
+these medical devices.  We encourage the FDA to adopt regulations that
+are consistent with the protections provided by open source methods,
+including <a class="reference external" href="http://www.catb.org/esr/writings/homesteading/cathedral-bazaar/ar01s04.html">Linus&#8217;s Law</a> to make all bugs shallow and accessible to
+those affected by them.
+In designing Nightscout, we try to adhere to the design principles
+outlined in <a class="reference external" href="http://www.faqs.org/docs/artu/ch01s06.html">Unix philosophy</a> in order to ensure safe, predictable,
+and effective operation of the Nightscout rig.</p>
 </div>
 <div class="section" id="known-issues">
 <h3>Known issues<a class="headerlink" href="#known-issues" title="Permalink to this headline">¶</a></h3>
@@ -141,18 +147,41 @@ from the Dexcom CGM.</p>
 fitness, and nutrition APIs.</p>
 <p>We will follow up with additional pre-subs if required to discuss
 further development efforts.</p>
-<div class="section" id="instructions">
-<h4>Instructions<a class="headerlink" href="#instructions" title="Permalink to this headline">¶</a></h4>
-<p>Please provide an overview of the product development, including an
-outline of nonclinical and clinical testing either planned or already
-completed. However, please note that our review of a Pre-Sub will not
-include a review of bench or clinical data that you have already
-collected.</p>
-<p>If you intend to include complete copies of literature articles as
-part of this section, please try to include only those that are
-relevant to the questions you are asking.  Additional articles can be
-provided in any subsequent marketing application or IDE.</p>
 </div>
+<div class="section" id="operational-metadata">
+<h3>Operational metadata<a class="headerlink" href="#operational-metadata" title="Permalink to this headline">¶</a></h3>
+<p>We anticipate adding indicators showing the connectivity status of the
+uploader device, as well as battery status, and other operational
+details of the system.  These details will help quickly assess
+validity of the data, and whether or not the system is working and
+trustworthy.</p>
+</div>
+<div class="section" id="access-controls">
+<h3>Access controls<a class="headerlink" href="#access-controls" title="Permalink to this headline">¶</a></h3>
+<p>During development, the community has expressed an interest in
+developing access controls to help protect who can access displays.
+We anticipate development of &#8220;named views&#8221; which can be used to
+control who accesses the remote monitor website, as well as when and
+how.  These views may optionally be protected by username/password
+type of login system, or through creating unique and opaquely encoded
+tokens explicitly for sharing.  We have found that the flexibility in
+sharing information publically outweighs the risks in the data being
+made public.  As the community and software matures, we anticipate
+personalizing the access controls to meet the needs of its users.</p>
+</div>
+<div class="section" id="support-commercialization">
+<h3>Support/Commercialization<a class="headerlink" href="#support-commercialization" title="Permalink to this headline">¶</a></h3>
+<p>One criticism of open source is the lack of commercial support for
+individuals who lack the ability to safely assemble and operate their
+own rig.  While the open source culture provides a large community
+able to train and offer support, the project remains accessible only
+to those with sufficient technical ability to assemble and debug their
+own equipment.  We propose that the community would be safer if the
+public could buy pre-assembled rigs on the market with support
+contracts to help ensure high quality operation for individuals
+lacking the time and effort.  However, we are concerned that the
+current regulations considering this a &#8220;high risk&#8221; device prevents
+individuals unprepared from obtaining the help they need.</p>
 </div>
 </div>
 </div>
@@ -174,10 +203,10 @@ provided in any subsequent marketing application or IDE.</p>
 </li>
 <li><a class="reference internal" href="#future-plans">Future plans</a><ul>
 <li><a class="reference internal" href="#oversight">Oversight</a></li>
-<li><a class="reference internal" href="#integration">Integration</a><ul>
-<li><a class="reference internal" href="#instructions">Instructions</a></li>
-</ul>
-</li>
+<li><a class="reference internal" href="#integration">Integration</a></li>
+<li><a class="reference internal" href="#operational-metadata">Operational metadata</a></li>
+<li><a class="reference internal" href="#access-controls">Access controls</a></li>
+<li><a class="reference internal" href="#support-commercialization">Support/Commercialization</a></li>
 </ul>
 </li>
 </ul>

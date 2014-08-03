@@ -65,11 +65,11 @@ level as reported by the Dexcom receiver.</p>
 <p>The Nightscout project is actually a suite of several independent
 projects:</p>
 <ul class="simple">
-<li>dexcom-uploder - Android app to poll dexcom, upload to cloud</li>
-<li>cgm-remote-monitor - A node.js web application that displays values
+<li><a class="reference external" href="https://github.com/nightscout/android-uploader">android-uploader</a> - Android app to poll dexcom, upload to cloud</li>
+<li><a class="reference external" href="https://github.com/nightscout/cgm-remote-monitor">cgm-remote-monitor</a> - A node.js web application that displays values
 stored by the Dexcom.</li>
-<li>cgm-pebble - A pebble watchface that reads and displays values from
-cgm-remote-monitor.</li>
+<li><a class="reference external" href="https://github.com/nightscout/cgm-pebble">cgm-pebble</a> - A pebble watchface that reads and displays values from
+<a class="reference external" href="https://github.com/nightscout/cgm-remote-monitor">cgm-remote-monitor</a>.</li>
 </ul>
 <p>When assembled, the completed device is called a &#8220;Nightscout rig.&#8221;
 In addition to the raw source code for these applications, other
@@ -79,7 +79,7 @@ documents, videos on a variety of social media, including a
 centralized community curated website for documentation as well as
 community maintained forum software.</p>
 <div class="section" id="cgm-remote-monitor">
-<h4>cgm-remote-monitor<a class="headerlink" href="#cgm-remote-monitor" title="Permalink to this headline">¶</a></h4>
+<h4><a class="reference external" href="https://github.com/nightscout/cgm-remote-monitor">cgm-remote-monitor</a><a class="headerlink" href="#cgm-remote-monitor" title="Permalink to this headline">¶</a></h4>
 <p>This is a web app which simulates the display of a Dexcom receiver.
 In addition to showing the last known glucose level, it displays when
 the reading was taken, and offers a way to pan several hours
@@ -91,23 +91,23 @@ combination of html, css, and javascript to simulate a
 near-real-time display of the Dexcom receiver.</p>
 <p>The web display works on most modern web browsers.</p>
 </div>
-<div class="section" id="dexcom-uploader">
-<h4>dexcom-uploader<a class="headerlink" href="#dexcom-uploader" title="Permalink to this headline">¶</a></h4>
-<p><cite>dexcom-uploader</cite> is an Android application implemented in java.  The
+<div class="section" id="android-uploader">
+<h4>android-uploader<a class="headerlink" href="#android-uploader" title="Permalink to this headline">¶</a></h4>
+<p><a class="reference external" href="https://github.com/nightscout/android-uploader">android-uploader</a> is an Android application implemented in java.  The
 application starts when a Dexcom receiver is detected using the
 operating system&#8217;s usb management system.  The application reads data
 from the serial port made available by Dexcom&#8217;s usb connection, and
 uploads the latest record to a specified data backend.  The backend
 may either be a RESTful API or a mongo db, and is configured using a
 preferences panel inthe application.</p>
-<p>The <cite>dexcom-uploader</cite> source code must be compiled and distributed as
+<p>The <a class="reference external" href="https://github.com/nightscout/android-uploader">android-uploader</a> source code must be compiled and distributed as
 an APK before it can run on an Android smartphone.  Once installed and
 configured to upload data to the preferred cloud &#8220;backend&#8221;, a USB OTG
 cable is used to connect the smartphone to the Dexcom receiver&#8217;s micro
 usb port.  The Dexcom receiver is a device cleared by the FDA for
 continuously monitoring glucose levels sampled from interstitial
 fluid.  The receiver is designed to store and display values
-transmitted by the Dexcom sensor.  <cite>dexcom-uploader</cite> uses the serial
+transmitted by the Dexcom sensor.  <a class="reference external" href="https://github.com/nightscout/android-uploader">android-uploader</a> uses the serial
 connection provided by this usb capability to exchange data with the
 Dexcom receiver.  The behavior of the uploader has been designed to
 behave as Dexcom would expect any data management system to behave.
@@ -117,14 +117,14 @@ on the Dexcom receiver.</p>
 </div>
 <div class="section" id="cgm-pebble">
 <h4>cgm-pebble<a class="headerlink" href="#cgm-pebble" title="Permalink to this headline">¶</a></h4>
-<p><cite>cgm-pebble</cite> is a C and javascript watchface developed using
+<p><a class="reference external" href="https://github.com/nightscout/cgm-pebble">cgm-pebble</a> is a C and javascript watchface developed using
 PebbleSDK.  The javascript code runs on a Smartphone maintaining
 bluetooth connectivity to the Pebble watch.  The javascript code
-retrieves information from <cite>cgm-remote-monitor</cite> and sends the last
+retrieves information from <a class="reference external" href="https://github.com/nightscout/cgm-remote-monitor">cgm-remote-monitor</a> and sends the last
 reading to over bluetooth to the pebble watch.  The C code runs on the
-watch, receiving messages over bluetooth from a smarthphone, and
+watch, receiving messages over bluetooth from a smartphone, and
 rendering the date, time, value, and trend as reported by a running
-instance of <cite>cgm-remote-monitor</cite>.</p>
+instance of <a class="reference external" href="https://github.com/nightscout/cgm-remote-monitor">cgm-remote-monitor</a>.</p>
 </div>
 </div>
 <div class="section" id="development">
@@ -145,12 +145,13 @@ controlled path to apply latest updates from trusted contributors.</p>
 exchanging source code for these projects.  In order to be used, the
 source code must be configured, compiled, deployed, and installed.</p>
 <p>While each repo contains instructions on how to test and work with
-that repo, the Nightscout guides, forums, youtube videos, pictures,
-and Facebook group provide &#8220;educational&#8221; material on how people have
-combined and configured these disparate parts to assemble something
-resembling a &#8220;medical device.&#8221;  The web guides also reside in a git
-repo, where improvements are proposed by the community, reviewed, and
-adopted in similar manner to the source code itself.</p>
+that repo, the Nightscout <a class="reference external" href="http://nightscout.github.io/">development guides</a>, <a class="reference external" href="http://www.nightscout.info/">forums</a>, <a class="reference external" href="https://www.youtube.com/channel/UChgmRw-YYFCtLbRVFDlSMHA">youtube
+videos</a>, <a class="reference external" href="http://imgur.com/a/cxcGG/all">pictures</a>, <a class="reference external" href="https://twitter.com/nightscoutproj">twitter account</a>, and <a class="reference external" href="https://www.facebook.com/groups/cgminthecloud/">Facebook group</a>
+provide &#8220;educational&#8221; material on how people have combined and
+configured these disparate parts to assemble something resembling a
+&#8220;medical device.&#8221;  The web guides also reside in a git repo, where
+improvements are proposed by the community, reviewed, and adopted in
+similar manner to the source code itself.</p>
 <p>The guides explain how to configure and install each component, with
 warnings of &#8220;things that might go wrong&#8221; at each phase.  When people
 experience issues following the guides or during use, they use social
@@ -158,40 +159,6 @@ media to find people that have similar issues or ask for help.  There
 are also recommendations, optimized for cost and predictability, on
 which service providers are available, as well as how to work with
 those service providers.</p>
-</div>
-<div class="section" id="c-device-description">
-<h3>c. Device Description<a class="headerlink" href="#c-device-description" title="Permalink to this headline">¶</a></h3>
-<p>Please provide sufficient information regarding the device description,
-25 which may include:</p>
-<ul class="simple">
-<li>pictures of the device (where applicable);</li>
-<li>engineering drawings (where applicable);</li>
-<li>physical, chemical and/or biological processes/principles used by
-the device to generate device output, if applicable;</li>
-<li>physical and biological characteristics of the device output, if
-applicable;</li>
-<li>samples to demonstrate the use of the device (where feasible and appropriate);</li>
-<li>explanation of the user interface and/or how the device interacts
-with other devices or with the user (medical professional and/or
-patient);</li>
-<li>explanation of the materials used in the device;</li>
-<li>a brief explanation of how the device is manufactured (where
-necessary);</li>
-<li>discussion of the mechanism of action and how the device and/or, if
-applicable, device output is used;</li>
-<li>for an IVD, detailed technical description of your device including
-instruments, reagents, components, software, principles of
-operation, and accessories (if there are changes to a previously
-cleared or approved device, then you should describe these changes);</li>
-<li>discussion of the scientific basis for development of the device or
-an explanation of expected clinical utility; and</li>
-<li>for a device to be submitted in a 510(k), any anticipated predicate
-and a descriptive comparison of the device to the predicate device.</li>
-</ul>
-<p>In addition to pictures and a written description, other information
-about the clinical use of the device, such as a surgical technique
-guide or video of how the device is used in the clinical setting, may
-be helpful.26</p>
 </div>
 </div>
 </div>
@@ -208,13 +175,12 @@ be helpful.26</p>
 <li><a class="reference internal" href="#device-description">Device Description</a><ul>
 <li><a class="reference internal" href="#nightscout-project">Nightscout project</a><ul>
 <li><a class="reference internal" href="#cgm-remote-monitor">cgm-remote-monitor</a></li>
-<li><a class="reference internal" href="#dexcom-uploader">dexcom-uploader</a></li>
+<li><a class="reference internal" href="#android-uploader">android-uploader</a></li>
 <li><a class="reference internal" href="#cgm-pebble">cgm-pebble</a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#development">Development</a></li>
 <li><a class="reference internal" href="#assembly-and-guides">Assembly and guides</a></li>
-<li><a class="reference internal" href="#c-device-description">c. Device Description</a></li>
 </ul>
 </li>
 </ul>
