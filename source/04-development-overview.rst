@@ -151,6 +151,6 @@ public could buy pre-assembled rigs on the market with support
 contracts to help ensure high quality operation for individuals
 lacking the time and effort.  However, we are concerned that the
 current regulations considering this a "high risk" device prevents
-individuals unprepared from obtaining the help they need.
+unprepared individuals from obtaining the help they need.
 
 
