@@ -176,13 +176,13 @@ pseudoxml:
 	@echo
 	@echo "Build finished. The pseudo-XML files are in $(BUILDDIR)/pseudoxml."
 
-github: latexpdf
+github: pdf
 	rm -rf ~/tmp/nightscout-fda-presubmission-docs
 	git clone -b gh-pages git@github.com:nightscout/fda-presubmission.git ~/tmp/nightscout-fda-presubmission-docs
 	cd ~/tmp/nightscout-fda-presubmission-docs; \
 	rm -rf *
 	cp -rf build/html/* ~/tmp/nightscout-fda-presubmission-docs/
-	cp build/latex/nightscout-fda-presubmission.pdf ~/tmp/nightscout-fda-presubmission-docs/
+	cp build/pdf/nightscout-fda-presubmission.pdf ~/tmp/nightscout-fda-presubmission-docs/
 	cd ~/tmp/nightscout-fda-presubmission-docs; \
 	touch .nojekyll ; \
 	git add . ; \
