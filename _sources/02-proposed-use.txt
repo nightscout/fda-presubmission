@@ -10,8 +10,17 @@ information originating from the Dexcom CGM.  A website allows the
 display to be presented on any device which can display websites to
 duplicate the display of the Dexcom.
 
+The best way to get an idea of how people use Nightscout is to peruse
+the `public testimonials`_ of use, or the `Facebook group`_.
+
+.. image:: http://i.imgur.com/q9gWTAd.png
+.. image:: http://i.imgur.com/y8V7SMW.png
+.. image:: http://i.imgur.com/hopdq1X.png
+.. image:: http://i.imgur.com/a1rRb3X.png
 
 
+.. _public testimonials: http://imgur.com/a/cxcGG/all
+.. _Facebook group: https://www.facebook.com/groups/cgminthecloud/
 
 Single pane of glass
 ++++++++++++++++++++
