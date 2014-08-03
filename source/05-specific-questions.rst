@@ -29,16 +29,21 @@ Specific Questions
 
   * How would this project be categorized, pending
     http://blogs.fda.gov/fdavoice/index.php/2014/06/fda-encourages-medical-device-data-system-innovation/
+    * Is this a realtime monitoring application?
 
-g. Specific Questions
----------------------
+      * Does classifying this as Class III, "high risk" medical device
+        make sense, empower the public to pursue safety in their own
+        therapy?
 
-The Pre-Sub should include specific questions regarding review issues
-relevant to a planned IDE, or marketing application (e.g., questions
-regarding pre-clinical and clinical testing protocols or data
-requirements) as our advice will be guided by your questions and may
-not identify all submission requirements. Appendix 1 of this guidance
-contains sections specific to IDE, 510(k), PMA, and HDE that list
-examples of questions appropriate to each submission and application
-type.  
+    * How can open source methodology be integrated into FDA controls?
+
+      * We want FDA enforcing open-ness on existing vendors, can we
+      explore a "time in range" endpoint which indicates absence of
+      harm due to therapy?  Can we nullify the proprietary
+      protections given to vendors if they have not provided
+      satisfactory evidence that their device enables safe therapy?
+
+  * Do any of the FDA certifications/approvals offer additional
+    protection from liability for, Karent Sandler in "Killed by Code,
+    Transparent Medical Devices" seems to suggest there are.
 

@@ -2,11 +2,11 @@
 Previous work
 =============
 
-e. Previous Discussions or Submissions
---------------------------------------
-
-Please summarize any previous discussions with/submissions to
-(including submission numbers) the agency on this or a similar device
-(e.g., previous discussions on a prior device design), including
-submission numbers as appropriate. 
+A number of informal discussions have taken place between the FDA and
+the Nightscout contributors.  The discussions have revealed a need to
+establish a framework for open source authors and FDA to work
+together in order to best protect and promote public safety.
+We seek the FDA's guidance in finding similar frameworks from other
+regulated or life-critical areas such as defense, aviation, and
+automotive industries.
 

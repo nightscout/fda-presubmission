@@ -50,12 +50,23 @@ Open source methodology
 The development of Nightscout as an open source project follows a
 predictable development pattern to identify issues, incorporate bug
 fixes, as well as develop new features.  The model, as discussed by
-Gabriel Coleman in Coding Freedom, http://codingfreedom.com/ relies
-heavily on an open review process to share and distribute
-improvements.
+Gabriel Coleman in `Coding Freedom`_ relies heavily on an open review
+process to share and distribute improvements.
 
-The Software Freedom Law Center
-http://www.softwarefreedom.org/resources/2010/transparent-medical-devices.pdf
+The Software Freedom Law Center, in `Transparent medical devices`_,
+also outlines the need for greater transparency in the operation of
+these medical devices.  We encourage the FDA to adopt regulations that
+are consistent with the protections provided by open source methods,
+including `Linus's Law`_ to make all bugs shallow and accessible to
+those affected by them.
+In designing Nightscout, we try to adhere to the design principles
+outlined in `Unix philosophy`_ in order to ensure safe, predictable,
+and effective operation of the Nightscout rig.
+
+.. _Coding Freedom: http://codingfreedom.com/
+.. _Transparent medical devices: http://www.softwarefreedom.org/resources/2010/transparent-medical-devices.pdf
+.. _Linus's Law: http://www.catb.org/esr/writings/homesteading/cathedral-bazaar/ar01s04.html
+.. _Unix philosophy: http://www.faqs.org/docs/artu/ch01s06.html
 
 Known issues
 ++++++++++++
@@ -73,12 +84,6 @@ Future plans
 The sponsors would like to discuss appropriate regulatory controls
 that protect open source authors' free speech as well as provides FDA
 with an appropriate framework to fulfill their mission.
-
-.. TODO::
-
-  * Additional pre-subs
-  * clinical trials/surveys
-  * aggregrator
 
 Oversight
 +++++++++
@@ -111,15 +116,41 @@ We will follow up with additional pre-subs if required to discuss
 further development efforts.
 
 
-Instructions
-^^^^^^^^^^^^
-Please provide an overview of the product development, including an
-outline of nonclinical and clinical testing either planned or already
-completed. However, please note that our review of a Pre-Sub will not
-include a review of bench or clinical data that you have already
-collected. 
- 
-If you intend to include complete copies of literature articles as
-part of this section, please try to include only those that are
-relevant to the questions you are asking.  Additional articles can be
-provided in any subsequent marketing application or IDE.  
+Operational metadata
+++++++++++++++++++++
+We anticipate adding indicators showing the connectivity status of the
+uploader device, as well as battery status, and other operational
+details of the system.  These details will help quickly assess
+validity of the data, and whether or not the system is working and
+trustworthy.
+
+Access controls
++++++++++++++++
+
+During development, the community has expressed an interest in
+developing access controls to help protect who can access displays.
+We anticipate development of "named views" which can be used to
+control who accesses the remote monitor website, as well as when and
+how.  These views may optionally be protected by username/password
+type of login system, or through creating unique and opaquely encoded
+tokens explicitly for sharing.  We have found that the flexibility in
+sharing information publically outweighs the risks in the data being
+made public.  As the community and software matures, we anticipate
+personalizing the access controls to meet the needs of its users.
+
+Support/Commercialization
++++++++++++++++++++++++++
+
+One criticism of open source is the lack of commercial support for
+individuals who lack the ability to safely assemble and operate their
+own rig.  While the open source culture provides a large community
+able to train and offer support, the project remains accessible only
+to those with sufficient technical ability to assemble and debug their
+own equipment.  We propose that the community would be safer if the
+public could buy pre-assembled rigs on the market with support
+contracts to help ensure high quality operation for individuals
+lacking the time and effort.  However, we are concerned that the
+current regulations considering this a "high risk" device prevents
+individuals unprepared from obtaining the help they need.
+
+
