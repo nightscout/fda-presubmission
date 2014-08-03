@@ -19,7 +19,7 @@ Nightscout project
 The Nightscout project is actually a suite of several independent
 projects:
 
-* `android-uploder`_ - Android app to poll dexcom, upload to cloud
+* `android-uploader`_ - Android app to poll dexcom, upload to cloud
 * `cgm-remote-monitor`_ - A node.js web application that displays values
   stored by the Dexcom.
 * `cgm-pebble`_ - A pebble watchface that reads and displays values from

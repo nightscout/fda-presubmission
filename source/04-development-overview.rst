@@ -36,8 +36,8 @@ community accepted versions.  When community members report bugs, this
 tracking system allows developers to reproduce and co-ordinate fixes,
 in some cases specifically tailored to members' needs.
 
-For example, in one instance, a mom from outside the U.S. needed
-displays in mmol/l vs mg/dl.  A group of interested members
+For example, in one instance, a several individuals outside the U.S.
+needed displays in mmol/l vs mg/dl.  A group of interested members
 teamed up to work on special mmol/l versions.  The member actually
 completed the required changes, sharing the needed deltas with the
 group.  As a result, we were able to re-use these same git tracking
