@@ -73,7 +73,7 @@ Known issues
 There are several proposed improvements and known issues.  Notably,
 the system as-is is not HIPAA compliant.  One of the key features in
 this system that has helped to liberate people, and thus make them
-safer, is the ease of use that accompanies pubically accessible data.
+safer, is the ease of use that accompanies publically accessible data.
 While we will adopt optional controls for authorizing and accessing
 data, parents of this system value easily sharing data with a school
 nurse with minimum hassle.
@@ -84,6 +84,9 @@ Future plans
 The sponsors would like to discuss appropriate regulatory controls
 that protect open source authors' free speech as well as provides FDA
 with an appropriate framework to fulfill their mission.
+The sponsors passionately share the FDA's mission to protect and
+promote public safety, a key reason Nightscout development is done as
+a "public performance," and freely shared.
 
 Oversight
 +++++++++
@@ -113,7 +116,11 @@ In addition, we will also explore integrating with many other health,
 fitness, and nutrition APIs.
 
 We will follow up with additional pre-subs if required to discuss
-further development efforts.
+further development efforts.  See also, `decoding-carelink`_, and the
+pending `decoding-carelink pre-submission`_.
+
+.. _`decoding-carelink`: https://github.com/bewest/decoding-carelink
+.. _`decoding-carelink pre-submission`: http://medevice-users.github.io/decoding-presub/#
 
 
 Operational metadata
