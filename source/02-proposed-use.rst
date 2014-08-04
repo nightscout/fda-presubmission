@@ -54,14 +54,24 @@ interacting with the Dexcom receiver attempts to faithfully transmit
 data from the receiver to a configured storage/data management service
 hosted on the internet.  The android software is agnostic of the data
 management service, and can be configured to work with several
-different data management service providers.  It also attempts to
-behave in the way that Dexcom expects all data management systems to
-behave.  An open analysis of the source code listings and comparisons
-of behavior reveals that the behavior of the Dexcom receiver is
-unaffected when this system is in use.  The use or non-use of
-Nightscout has no observable difference in the Dexcom equipment or
-system, either while Dexcom is in use or after.  Eg, we believe that
-Nightscout has no effect on Dexcom's performance, quality, or safety.
+different data management service providers.  While Dexcom has not
+sanctioned or approved the data management functions performed by
+Nightscout, the software has been designed to behave
+in the way that Dexcom expects all data management systems to behave.
+The data management protocol was obtained through analysis of Dexcom's
+own data management software.  An open analysis of the source code
+listings and comparisons of behavior reveals that the behavior of the
+Dexcom receiver is unaffected when this system is in use, and matches
+the intended behavior of Dexcom's own data management software.  The
+use or non-use of Nightscout has no observable difference in the
+Dexcom equipment or system, either while Dexcom is in use or after.
+Eg, we believe that Nightscout has no effect on Dexcom's performance,
+quality, or safety.  Dexcom became an FDA approved device in 2012 and
+the accuracy of the device is well tested by thousands of patients.
+Providing connectivity to manage communication of the Dexcom's
+readings makes no changes to the accuracy.  Nightscout does not modify
+the blood glucose readings and thus maintains the original data
+quality.
 
 When Nightscout is in use, the community recommends that users
 maintain their normal therapy.  Nightscout should not alter therapy
