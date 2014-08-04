@@ -70,13 +70,14 @@ and effective operation of the Nightscout rig.
 
 Known issues
 ++++++++++++
-There are several proposed improvements and known issues.  Notably,
-the system as-is is not HIPAA compliant.  One of the key features in
-this system that has helped to liberate people, and thus make them
-safer, is the ease of use that accompanies publically accessible data.
-While we will adopt optional controls for authorizing and accessing
-data, parents of this system value easily sharing data with a school
-nurse with minimum hassle.
+
+There are several proposed improvements and known issues. One key
+feature liberating people, and thus making them safer, is the ease of
+use that accompanies data being made accessible to other trusted
+individuals. While we will adopt optional controls for authorizing and
+accessing data, parents of this system value easily sharing data with
+a school nurse with minimum hassle; and adults using this system value
+easily sharing their data as well.
 
 Future plans
 ------------

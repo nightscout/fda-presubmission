@@ -3289,7 +3289,7 @@ endobj
 << /Outlines 146 0 R /PageLabels 197 0 R /PageMode /UseNone /Pages 182 0 R /Type /Catalog >>
 endobj
 145 0 obj
-<< /Author () /CreationDate <rst2pdf.createpdf.PDFDate instance at 0x2b14c7467dd0> /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
+<< /Author () /CreationDate <rst2pdf.createpdf.PDFDate instance at 0x2ad4176f1b48> /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
   /Title () >>
 endobj
 146 0 obj
@@ -4864,7 +4864,7 @@ Q
 endstream
 endobj
 194 0 obj
-<< /Length 6787 >>
+<< /Length 6799 >>
 stream
 1 0 0 1 0 0 cm 
 q
@@ -4914,7 +4914,7 @@ q
 1 0 0 1 40.01575 504.2394 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 50 Tm .870532 Tw /F3+0 10 Tf 12 TL (There are several proposed improvements and known issues. Notably, the system as-is is not HIPAA) Tj T* 0 Tw .767173 Tw (compliant. One of the key features in this system that has helped to liberate people, and thus make) Tj T* 0 Tw 2.57975 Tw (them safer, is the ease of use that accompanies publically accessible data. While we will adopt) Tj T* 0 Tw .567798 Tw (optional controls for authorizing and accessing data, parents of this system value easily sharing data) Tj T* 0 Tw (with a school nurse with minimum hassle.) Tj T* ET
+BT 1 0 0 1 0 50 Tm .704999 Tw /F3+0 10 Tf 12 TL (There are several proposed improvements and known issues. One key feature liberating people, and) Tj T* 0 Tw 1.380307 Tw (thus making them safer, is the ease of use that accompanies data being made accessible to other) Tj T* 0 Tw .819933 Tw (trusted individuals. While we will adopt optional controls for authorizing and accessing data, parents) Tj T* 0 Tw 1.02081 Tw (of this system value easily sharing data with a school nurse with minimum hassle; and adults using) Tj T* 0 Tw (this system value easily sharing their data as well.) Tj T* ET
 Q
 Q
 q
@@ -5876,30 +5876,30 @@ xref
 0001196136 00000 n
 0001203503 00000 n
 0001210590 00000 n
-0001217435 00000 n
-0001226929 00000 n
-0001229943 00000 n
-0001230131 00000 n
-0001230169 00000 n
-0001230207 00000 n
-0001230245 00000 n
-0001230283 00000 n
-0001230321 00000 n
-0001230359 00000 n
-0001230397 00000 n
-0001230435 00000 n
-0001230473 00000 n
-0001230511 00000 n
-0001230549 00000 n
-0001230587 00000 n
-0001230625 00000 n
+0001217447 00000 n
+0001226941 00000 n
+0001229955 00000 n
+0001230143 00000 n
+0001230181 00000 n
+0001230219 00000 n
+0001230257 00000 n
+0001230295 00000 n
+0001230333 00000 n
+0001230371 00000 n
+0001230409 00000 n
+0001230447 00000 n
+0001230485 00000 n
+0001230523 00000 n
+0001230561 00000 n
+0001230599 00000 n
+0001230637 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com)
  [(-\270/\215\023\374\232\255\017j\310\301DYu\363) (-\270/\215\023\374\232\255\017j\310\301DYu\363)]
  /Info 145 0 R /Root 144 0 R /Size 212 >>
 startxref
-1230664
+1230676
 %%EOF
 %PDF-1.4
 %“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
@@ -9192,7 +9192,7 @@ endobj
 << /Outlines 146 0 R /PageLabels 197 0 R /PageMode /UseNone /Pages 182 0 R /Type /Catalog >>
 endobj
 145 0 obj
-<< /Author () /CreationDate <rst2pdf.createpdf.PDFDate instance at 0x2b14c7343290> /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
+<< /Author () /CreationDate <rst2pdf.createpdf.PDFDate instance at 0x2ad41782ba28> /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
   /Title () >>
 endobj
 146 0 obj
@@ -10774,7 +10774,7 @@ Q
 endstream
 endobj
 194 0 obj
-<< /Length 7010 >>
+<< /Length 7022 >>
 stream
 1 0 0 1 0 0 cm 
 q
@@ -10824,7 +10824,7 @@ q
 1 0 0 1 40.01575 504.2394 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 50 Tm .870532 Tw /F3+0 10 Tf 12 TL (There are several proposed improvements and known issues. Notably, the system as-is is not HIPAA) Tj T* 0 Tw .767173 Tw (compliant. One of the key features in this system that has helped to liberate people, and thus make) Tj T* 0 Tw 2.57975 Tw (them safer, is the ease of use that accompanies publically accessible data. While we will adopt) Tj T* 0 Tw .567798 Tw (optional controls for authorizing and accessing data, parents of this system value easily sharing data) Tj T* 0 Tw (with a school nurse with minimum hassle.) Tj T* ET
+BT 1 0 0 1 0 50 Tm .704999 Tw /F3+0 10 Tf 12 TL (There are several proposed improvements and known issues. One key feature liberating people, and) Tj T* 0 Tw 1.380307 Tw (thus making them safer, is the ease of use that accompanies data being made accessible to other) Tj T* 0 Tw .819933 Tw (trusted individuals. While we will adopt optional controls for authorizing and accessing data, parents) Tj T* 0 Tw 1.02081 Tw (of this system value easily sharing data with a school nurse with minimum hassle; and adults using) Tj T* 0 Tw (this system value easily sharing their data as well.) Tj T* ET
 Q
 Q
 q
@@ -11786,28 +11786,28 @@ xref
 0001196203 00000 n
 0001203570 00000 n
 0001210657 00000 n
-0001217725 00000 n
-0001227212 00000 n
-0001230007 00000 n
-0001230195 00000 n
-0001230233 00000 n
-0001230271 00000 n
-0001230309 00000 n
-0001230347 00000 n
-0001230385 00000 n
-0001230423 00000 n
-0001230461 00000 n
-0001230499 00000 n
-0001230537 00000 n
-0001230575 00000 n
-0001230613 00000 n
-0001230651 00000 n
-0001230689 00000 n
+0001217737 00000 n
+0001227224 00000 n
+0001230019 00000 n
+0001230207 00000 n
+0001230245 00000 n
+0001230283 00000 n
+0001230321 00000 n
+0001230359 00000 n
+0001230397 00000 n
+0001230435 00000 n
+0001230473 00000 n
+0001230511 00000 n
+0001230549 00000 n
+0001230587 00000 n
+0001230625 00000 n
+0001230663 00000 n
+0001230701 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com)
  [(-\270/\215\023\374\232\255\017j\310\301DYu\363) (-\270/\215\023\374\232\255\017j\310\301DYu\363)]
  /Info 145 0 R /Root 144 0 R /Size 212 >>
 startxref
-1230728
+1230740
 %%EOF
