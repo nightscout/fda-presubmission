@@ -26,9 +26,9 @@ Single pane of glass
 ++++++++++++++++++++
 The website url is typically shared with caregivers and interested
 parties.  This allows multiple people to monitor a Dexcom user's
-glucose levels from concurrently from any internet connection.
-Multiple redundant displays eliminates transcription error and raises
-the fidelity of communicating current therapy status.
+glucose levels from any internet connection.  Multiple redundant
+displays eliminates transcription error and raises the fidelity of
+communicating current therapy status.
 
 
 
@@ -74,7 +74,7 @@ for managing therapy; that people administer therapy, not technology.
 Nightscout is another tool using commonly available technology, like
 baby-monitors, to bring diabetes therapy, specifically communicating
 current satus of therapy, more in line with the way the users of these
-tools, like Dexcom, feel is acceptable.
+tools feel is acceptable.
 
 Uses of Nightscout
 ------------------
