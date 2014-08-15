@@ -3,11 +3,27 @@
 Cover letter
 ============
 
+E-Copy Statement
+----------------
+To the
+| Food and Drug Administration
+| Center for Devices and Radiological Health
+| Document Control Center - WO66-G609
+| 10903 New Hampshire Avenue
+| Silver Spring, MD 20993-0002
+
+The eCopy is an exact duplicate of the paper copy, except for the
+following differences:
+  * for security, a wet, inked signature is only provided on the hard
+    copy, and absent in the digital and online versions of this ecopy
+
+
+
 Nightscout sponsorship
 ----------------------
 To whom it may concern, Dr. Stayce Beck, et al.
 
-This presubmission is to discuss open source projects and FDA
+This premarket submission is to discuss open source projects and FDA
 oversight.  Specifically, this is to discuss the Nightscout project,
 aka "CGM in the Cloud."
 
@@ -23,4 +39,9 @@ project via an email list administered by Google groups:
 
 * https://groups.google.com/forum/?utm_medium=email&utm_source=footer#!forum/nightscout-core-dev
 * nightscout-core-dev@googlegroups.com
+
+We request a meeting to discuss the risks and safety Nightscout.
+Please review the following discussion of the device description,
+future plans, and questions.
+We are happy to schedule meetings as needed.
 
