@@ -6,6 +6,8 @@ Cover letter
 E-Copy Statement
 ----------------
 To the
+
+
 | Food and Drug Administration
 | Center for Devices and Radiological Health
 | Document Control Center - WO66-G609
@@ -17,6 +19,10 @@ following differences:
   * for security, a wet, inked signature is only provided on the hard
     copy, and absent in the digital and online versions of this ecopy
 
+  * An exact copy of this ecopy has been permanently archived in git
+    at tag ``1.0.0`` and `may be retrieved from the website`.
+
+.. _may be retrieved from the website: https://github.com/nightscout/fda-presubmission/blob/1.0.0/nightscout-fda-presubmission.pdf?raw=true
 
 
 Nightscout sponsorship
