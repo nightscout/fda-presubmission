@@ -53,9 +53,9 @@
 <h1>Nightscout<a class="headerlink" href="#nightscout" title="Permalink to this headline">¶</a></h1>
 <p>Nightscout is a suite of open source projects.  A smartphone provides
 ubiquitous network connectivity to Dexcom&#8217;s wireless receiver.  After a polling
-period the last reading from the Dexcom reciever is transmitted to a database
-on the internet.  A website renders near-real-time views of the records stored
-in that database.  Additionally, the website offers an http endpoint that a
+period the last reading from the Dexcom receiver is transmitted to a database
+on the Internet.  A website renders near-real-time views of the records stored
+in that database.  Additionally, the website offers a <tt class="docutils literal"><span class="pre">RESTful</span> <span class="pre">API</span></tt> that a
 pebble watch can use to display the last known alarm status, trend, and glucose
 level as reported by the Dexcom receiver.</p>
 <div class="section" id="device-description">
@@ -65,10 +65,11 @@ level as reported by the Dexcom receiver.</p>
 <p>The Nightscout project is actually a suite of several independent
 projects:</p>
 <ul class="simple">
-<li><a class="reference external" href="https://github.com/nightscout/android-uploader">android-uploader</a> - Android app to poll dexcom, upload to cloud</li>
-<li><a class="reference external" href="https://github.com/nightscout/cgm-remote-monitor">cgm-remote-monitor</a> - A node.js web application that displays values
+<li><a class="reference external" href="https://github.com/nightscout/android-uploader">android-uploader</a> - Android application to poll the Dexcom receiver,
+transferring the data to cloud.</li>
+<li><a class="reference external" href="https://github.com/nightscout/cgm-remote-monitor">cgm-remote-monitor</a> - A <tt class="docutils literal"><span class="pre">node.js</span></tt> web application that displays values
 stored by the Dexcom.</li>
-<li><a class="reference external" href="https://github.com/nightscout/cgm-pebble">cgm-pebble</a> - A pebble watchface that reads and displays values from
+<li><a class="reference external" href="https://github.com/nightscout/cgm-pebble">cgm-pebble</a> - A pebble watch face that displays values reported by
 <a class="reference external" href="https://github.com/nightscout/cgm-remote-monitor">cgm-remote-monitor</a>.</li>
 </ul>
 <p>When assembled, the completed device is called a &#8220;Nightscout rig.&#8221;
@@ -80,15 +81,15 @@ centralized community curated website for documentation as well as
 community maintained forum software.</p>
 <div class="section" id="cgm-remote-monitor">
 <h4><a class="reference external" href="https://github.com/nightscout/cgm-remote-monitor">cgm-remote-monitor</a><a class="headerlink" href="#cgm-remote-monitor" title="Permalink to this headline">¶</a></h4>
-<p>This is a web app which simulates the display of a Dexcom receiver.
-In addition to showing the last known glucose level, it displays when
-the reading was taken, and offers a way to pan several hours
-retrospectively.</p>
-<p>Every 5 minutes, a node.js server polls a mongo database, emitting the
-last readings over the last two days to any listeners subscribed to
-the server&#8217;s &#8220;sgv&#8221; websocket event.  The server also serves a
-combination of html, css, and javascript to simulate a
-near-real-time display of the Dexcom receiver.</p>
+<p>This is a web application which simulates the display of a Dexcom
+receiver.  In addition to showing the last known glucose level, it
+displays when the reading was taken, and offers a way to pan several
+hours retrospectively.</p>
+<p>Every 5 minutes, a <tt class="docutils literal"><span class="pre">node.js</span></tt> server polls a mongo database, emitting
+the last readings over the last two days to any listeners subscribed
+to the server&#8217;s <tt class="docutils literal"><span class="pre">sgv</span></tt> websocket event.  The server also serves a
+combination of html, css, and javascript to simulate a near-real-time
+display of the Dexcom receiver.</p>
 <p>The web display works on most modern web browsers.</p>
 </div>
 <div class="section" id="android-uploader">
@@ -98,8 +99,8 @@ application starts when a Dexcom receiver is detected using the
 operating system&#8217;s usb management system.  The application reads data
 from the serial port made available by Dexcom&#8217;s usb connection, and
 uploads the latest record to a specified data backend.  The backend
-may either be a RESTful API or a mongo db, and is configured using a
-preferences panel inthe application.</p>
+may either be a RESTful API or a mongo database, and is configured using a
+preferences panel in the application.</p>
 <p>The <a class="reference external" href="https://github.com/nightscout/android-uploader">android-uploader</a> source code must be compiled and distributed as
 an APK before it can run on an Android smartphone.  Once installed and
 configured to upload data to the preferred cloud &#8220;backend&#8221;, a USB OTG
@@ -117,7 +118,7 @@ on the Dexcom receiver.</p>
 </div>
 <div class="section" id="cgm-pebble">
 <h4>cgm-pebble<a class="headerlink" href="#cgm-pebble" title="Permalink to this headline">¶</a></h4>
-<p><a class="reference external" href="https://github.com/nightscout/cgm-pebble">cgm-pebble</a> is a C and javascript watchface developed using
+<p><a class="reference external" href="https://github.com/nightscout/cgm-pebble">cgm-pebble</a> is a C and javascript watch face developed using
 PebbleSDK.  The javascript code runs on a Smartphone maintaining
 bluetooth connectivity to the Pebble watch.  The javascript code
 retrieves information from <a class="reference external" href="https://github.com/nightscout/cgm-remote-monitor">cgm-remote-monitor</a> and sends the last
@@ -129,27 +130,27 @@ instance of <a class="reference external" href="https://github.com/nightscout/cg
 </div>
 <div class="section" id="development">
 <h3>Development<a class="headerlink" href="#development" title="Permalink to this headline">¶</a></h3>
-<p>Development takes place using github, from the nightscout organization
+<p>Development takes place using Github, from the Nightscout organization
 page: <a class="reference external" href="https://github.com/nightscout/">https://github.com/nightscout/</a>.
 Modifications, upgrades, development, and issue tracking happen using
 the resources connected to assets shared by a community of people.
 Each and every change to the source code is tracked by git and
-discussed through a github pull request.  Upgrades are provided by
+discussed through a Github pull request.  Upgrades are provided by
 providing git merge requests, often using the Github UI, by
 identifying the last commit hash in use, and a verified change
 controlled path to apply latest updates from trusted contributors.</p>
 </div>
 <div class="section" id="assembly-and-guides">
 <h3>Assembly and guides<a class="headerlink" href="#assembly-and-guides" title="Permalink to this headline">¶</a></h3>
-<p>The git repos merely provide the source code, and a verified way of
+<p>The git repositories merely provide the source code, and a verified way of
 exchanging source code for these projects.  In order to be used, the
 source code must be configured, compiled, deployed, and installed.</p>
-<p>While each repo contains instructions on how to test and work with
-that repo, the Nightscout <a class="reference external" href="http://nightscout.github.io/">development guides</a>, <a class="reference external" href="http://www.nightscout.info/">forums</a>, <a class="reference external" href="https://www.youtube.com/channel/UChgmRw-YYFCtLbRVFDlSMHA">youtube
+<p>While each repository contains instructions on how to test and work with
+that repository, the Nightscout <a class="reference external" href="http://nightscout.github.io/">development guides</a>, <a class="reference external" href="http://www.nightscout.info/">forums</a>, <a class="reference external" href="https://www.youtube.com/channel/UChgmRw-YYFCtLbRVFDlSMHA">youtube
 videos</a>, <a class="reference external" href="http://imgur.com/a/cxcGG/all">pictures</a>, <a class="reference external" href="https://twitter.com/nightscoutproj">twitter account</a>, and <a class="reference external" href="https://www.facebook.com/groups/cgminthecloud/">Facebook group</a>
 provide &#8220;educational&#8221; material on how people have combined and
 configured these disparate parts to assemble something resembling a
-&#8220;medical device.&#8221;  The web guides also reside in a git repo, where
+&#8220;medical device.&#8221;  The web guides also reside in a git repository, where
 improvements are proposed by the community, reviewed, and adopted in
 similar manner to the source code itself.</p>
 <p>The guides explain how to configure and install each component, with

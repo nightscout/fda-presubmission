@@ -26,18 +26,20 @@ dedicated to discussing improvements or changes to a code base that is
 in active use by several dozen individuals and families.  After the
 community reviews and tests these proposals in a public audit called a
 "pull request," one of the core contributors accepts the changes into
-the "master" branch.  This workflow is sometimes called "gitflow"
-http://nvie.com/posts/a-successful-git-branching-model/.
+the "master" branch.  This process of tracking, recording, and auditing work is
+sometimes called gitflow_.
+
+.. _gitflow: http://nvie.com/posts/a-successful-git-branching-model/
 
 After the "master" branch has updated with changes relevant to the
 community, specially crafted pull requests allow tracking the exact
-git deltas necessary to bring another repo up to date with the
+git deltas necessary to bring another repository up to date with the
 community accepted versions.  When community members report bugs, this
 tracking system allows developers to reproduce and co-ordinate fixes,
 in some cases specifically tailored to members' needs.
 
 For example, in one instance, a several individuals outside the U.S.
-needed displays in mmol/l vs mg/dl.  A group of interested members
+needed displays in ``mmol/L`` vs ``mg/dL``.  A group of interested members
 teamed up to work on special mmol/l versions.  The member actually
 completed the required changes, sharing the needed deltas with the
 group.  As a result, we were able to re-use these same git tracking
@@ -95,11 +97,12 @@ Given the community's frustration with safety in available medical
 devices to manage type 1 diabetes therapy, we believe there are
 opportunities for open source authors and FDA to work together.  One
 such opportunity is in post-market surveillance.  We have developed an
-aggregator which re-displays de-personalized many Nightscout remote
-monitors in a single "spaghetti plot."  We propose modifying this
-aggregator to automatically compile and submit reports to the FDA in
-order to aide in post market surveillance of devices used in diabetes
-therapy.
+aggregation tool which redisplays, depersonalized, many Nightscout
+remote monitors in a single "spaghetti plot."  We propose modifying
+the aggregating tool to automatically compile and submit reports to
+the FDA in order to aide in post market surveillance of devices used
+in diabetes therapy, and to generate useful research data on larger
+populations.
 
 
 Integration
@@ -109,16 +112,16 @@ In the interest of safety, we need a single display to contextually
 manage type 1 diabetes.  We will add data transfer from Medtronic
 insulin pumps to obtain "treatment" data consisting of the bolus
 wizard and bolus records.  Additionally, the display will
-automatically show both the treatment data, carbohydrates, insulin,
-and carb ration, from the insulin pump overlaid with glucose readings
-from the Dexcom CGM.
+automatically show both the treatment data, carbohydrates consumed,
+insulin, and carbohydrate ratio, from insulin pumps overlaid with
+glucose readings from the Dexcom CGM.
 
 In addition, we will also explore integrating with many other health,
 fitness, and nutrition APIs.
 
-We will follow up with additional pre-subs if required to discuss
-further development efforts.  See also, `decoding-carelink`_, and the
-pending `decoding-carelink pre-submission`_.
+We will follow up with additional premarket submissions as required to
+discuss further development efforts.  See also, `decoding-carelink`_,
+and the pending `decoding-carelink pre-submission`_.
 
 .. _`decoding-carelink`: https://github.com/bewest/decoding-carelink
 .. _`decoding-carelink pre-submission`: http://medevice-users.github.io/decoding-presub/#
@@ -139,12 +142,13 @@ During development, the community has expressed an interest in
 developing access controls to help protect who can access displays.
 We anticipate development of "named views" which can be used to
 control who accesses the remote monitor website, as well as when and
-how.  These views may optionally be protected by username/password
+how.  These views may optionally be protected by user name and password
 type of login system, or through creating unique and opaquely encoded
 tokens explicitly for sharing.  We have found that the flexibility in
-sharing information publically outweighs the risks in the data being
-made public.  As the community and software matures, we anticipate
-personalizing the access controls to meet the needs of its users.
+sharing information in public outweighs the relative risks in the data
+being made public.  As the community and software matures, we
+anticipate personalizing the access controls to meet the needs of its
+users.
 
 Support/Commercialization
 +++++++++++++++++++++++++
@@ -155,10 +159,10 @@ own rig.  While the open source culture provides a large community
 able to train and offer support, the project remains accessible only
 to those with sufficient technical ability to assemble and debug their
 own equipment.  We propose that the community would be safer if the
-public could buy pre-assembled rigs on the market with support
-contracts to help ensure high quality operation for individuals
-lacking the time and effort.  However, we are concerned that the
-current regulations considering this a "high risk" device prevents
-unprepared individuals from obtaining the help they need.
+public could buy assembled rigs on the market with support contracts
+to help ensure high quality operation for individuals lacking the time
+and effort.  However, we are concerned that the current regulations
+considering this a "high risk" device prevents unprepared individuals
+from obtaining the help they need.
 
 

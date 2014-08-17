@@ -73,16 +73,16 @@ dedicated to discussing improvements or changes to a code base that is
 in active use by several dozen individuals and families.  After the
 community reviews and tests these proposals in a public audit called a
 &#8220;pull request,&#8221; one of the core contributors accepts the changes into
-the &#8220;master&#8221; branch.  This workflow is sometimes called &#8220;gitflow&#8221;
-<a class="reference external" href="http://nvie.com/posts/a-successful-git-branching-model/">http://nvie.com/posts/a-successful-git-branching-model/</a>.</p>
+the &#8220;master&#8221; branch.  This process of tracking, recording, and auditing work is
+sometimes called <a class="reference external" href="http://nvie.com/posts/a-successful-git-branching-model/">gitflow</a>.</p>
 <p>After the &#8220;master&#8221; branch has updated with changes relevant to the
 community, specially crafted pull requests allow tracking the exact
-git deltas necessary to bring another repo up to date with the
+git deltas necessary to bring another repository up to date with the
 community accepted versions.  When community members report bugs, this
 tracking system allows developers to reproduce and co-ordinate fixes,
 in some cases specifically tailored to members&#8217; needs.</p>
 <p>For example, in one instance, a several individuals outside the U.S.
-needed displays in mmol/l vs mg/dl.  A group of interested members
+needed displays in <tt class="docutils literal"><span class="pre">mmol/L</span></tt> vs <tt class="docutils literal"><span class="pre">mg/dL</span></tt>.  A group of interested members
 teamed up to work on special mmol/l versions.  The member actually
 completed the required changes, sharing the needed deltas with the
 group.  As a result, we were able to re-use these same git tracking
@@ -131,11 +131,12 @@ a &#8220;public performance,&#8221; and freely shared.</p>
 devices to manage type 1 diabetes therapy, we believe there are
 opportunities for open source authors and FDA to work together.  One
 such opportunity is in post-market surveillance.  We have developed an
-aggregator which re-displays de-personalized many Nightscout remote
-monitors in a single &#8220;spaghetti plot.&#8221;  We propose modifying this
-aggregator to automatically compile and submit reports to the FDA in
-order to aide in post market surveillance of devices used in diabetes
-therapy.</p>
+aggregation tool which redisplays, depersonalized, many Nightscout
+remote monitors in a single &#8220;spaghetti plot.&#8221;  We propose modifying
+the aggregating tool to automatically compile and submit reports to
+the FDA in order to aide in post market surveillance of devices used
+in diabetes therapy, and to generate useful research data on larger
+populations.</p>
 </div>
 <div class="section" id="integration">
 <h3>Integration<a class="headerlink" href="#integration" title="Permalink to this headline">¶</a></h3>
@@ -143,14 +144,14 @@ therapy.</p>
 manage type 1 diabetes.  We will add data transfer from Medtronic
 insulin pumps to obtain &#8220;treatment&#8221; data consisting of the bolus
 wizard and bolus records.  Additionally, the display will
-automatically show both the treatment data, carbohydrates, insulin,
-and carb ration, from the insulin pump overlaid with glucose readings
-from the Dexcom CGM.</p>
+automatically show both the treatment data, carbohydrates consumed,
+insulin, and carbohydrate ratio, from insulin pumps overlaid with
+glucose readings from the Dexcom CGM.</p>
 <p>In addition, we will also explore integrating with many other health,
 fitness, and nutrition APIs.</p>
-<p>We will follow up with additional pre-subs if required to discuss
-further development efforts.  See also, <a class="reference external" href="https://github.com/bewest/decoding-carelink">decoding-carelink</a>, and the
-pending <a class="reference external" href="http://medevice-users.github.io/decoding-presub/#">decoding-carelink pre-submission</a>.</p>
+<p>We will follow up with additional premarket submissions as required to
+discuss further development efforts.  See also, <a class="reference external" href="https://github.com/bewest/decoding-carelink">decoding-carelink</a>,
+and the pending <a class="reference external" href="http://medevice-users.github.io/decoding-presub/#">decoding-carelink pre-submission</a>.</p>
 </div>
 <div class="section" id="operational-metadata">
 <h3>Operational metadata<a class="headerlink" href="#operational-metadata" title="Permalink to this headline">¶</a></h3>
@@ -166,12 +167,13 @@ trustworthy.</p>
 developing access controls to help protect who can access displays.
 We anticipate development of &#8220;named views&#8221; which can be used to
 control who accesses the remote monitor website, as well as when and
-how.  These views may optionally be protected by username/password
+how.  These views may optionally be protected by user name and password
 type of login system, or through creating unique and opaquely encoded
 tokens explicitly for sharing.  We have found that the flexibility in
-sharing information publically outweighs the risks in the data being
-made public.  As the community and software matures, we anticipate
-personalizing the access controls to meet the needs of its users.</p>
+sharing information in public outweighs the relative risks in the data
+being made public.  As the community and software matures, we
+anticipate personalizing the access controls to meet the needs of its
+users.</p>
 </div>
 <div class="section" id="support-commercialization">
 <h3>Support/Commercialization<a class="headerlink" href="#support-commercialization" title="Permalink to this headline">¶</a></h3>
@@ -181,11 +183,11 @@ own rig.  While the open source culture provides a large community
 able to train and offer support, the project remains accessible only
 to those with sufficient technical ability to assemble and debug their
 own equipment.  We propose that the community would be safer if the
-public could buy pre-assembled rigs on the market with support
-contracts to help ensure high quality operation for individuals
-lacking the time and effort.  However, we are concerned that the
-current regulations considering this a &#8220;high risk&#8221; device prevents
-unprepared individuals from obtaining the help they need.</p>
+public could buy assembled rigs on the market with support contracts
+to help ensure high quality operation for individuals lacking the time
+and effort.  However, we are concerned that the current regulations
+considering this a &#8220;high risk&#8221; device prevents unprepared individuals
+from obtaining the help they need.</p>
 </div>
 </div>
 </div>
