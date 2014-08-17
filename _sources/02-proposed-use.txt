@@ -106,6 +106,11 @@ other wise happen.  They all cite Nightscout's remote telemetry in
 liberating these activities, in some cases with pictures indicating
 injuries staved off or critical rescue care co-ordinated.
 
+.. raw:: pdf
+
+    FrameBreak 100
+
+
 Adult users have cited Nightscout in increasing discretion.  A common
 complaint among users of type 1 diabetes medical equipment is that
 the mandated use of the equipment combined with the time it takes to
