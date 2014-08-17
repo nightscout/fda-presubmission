@@ -81,13 +81,12 @@ There is no expected difference in Dexcom's behavior when the uploader
 smartphone is attached or while our software is auditing the records
 on the Dexcom receiver.
 
+cgm-pebble
+##########
 
 .. raw:: pdf
 
-    FrameBreak 50
-
-cgm-pebble
-##########
+    FrameBreak 100
 
 `cgm-pebble`_ is a C and javascript watch face developed using
 PebbleSDK.  The javascript code runs on a Smartphone maintaining
@@ -101,6 +100,10 @@ instance of `cgm-remote-monitor`_.
 
 Development
 -----------
+
+.. raw:: pdf
+
+    FrameBreak 100
 
 Development takes place using Github, from the Nightscout organization
 page: https://github.com/nightscout/.
