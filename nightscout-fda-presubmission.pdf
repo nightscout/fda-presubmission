@@ -120,16 +120,16 @@ endobj
 << /Border [ 0 0 0 ] /Contents () /Dest [ 110 0 R /XYZ 40.01575 273.4394 0 ] /Rect [ 548.8975 448.7894 555.2598 460.7894 ] /Subtype /Link /Type /Annot >>
 endobj
 40 0 obj
-<< /Border [ 0 0 0 ] /Contents () /Dest [ 112 0 R /XYZ 40.01575 699.0394 0 ] /Rect [ 120.0157 430.7894 190.2062 442.7894 ] /Subtype /Link /Type /Annot >>
+<< /Border [ 0 0 0 ] /Contents () /Dest [ 112 0 R /XYZ 40.01575 699.0394 0 ] /Rect [ 100.0157 430.7894 170.2062 442.7894 ] /Subtype /Link /Type /Annot >>
 endobj
 41 0 obj
 << /Border [ 0 0 0 ] /Contents () /Dest [ 112 0 R /XYZ 40.01575 699.0394 0 ] /Rect [ 548.8975 430.7894 555.2598 442.7894 ] /Subtype /Link /Type /Annot >>
 endobj
 42 0 obj
-<< /Border [ 0 0 0 ] /Contents () /Dest [ 112 0 R /XYZ 40.01575 669.8394 0 ] /Rect [ 100.0157 412.7894 237.4913 424.7894 ] /Subtype /Link /Type /Annot >>
+<< /Border [ 0 0 0 ] /Contents () /Dest [ 112 0 R /XYZ 40.01575 668.6394 0 ] /Rect [ 120.0157 412.7894 257.4913 424.7894 ] /Subtype /Link /Type /Annot >>
 endobj
 43 0 obj
-<< /Border [ 0 0 0 ] /Contents () /Dest [ 112 0 R /XYZ 40.01575 669.8394 0 ] /Rect [ 548.8975 412.7894 555.2598 424.7894 ] /Subtype /Link /Type /Annot >>
+<< /Border [ 0 0 0 ] /Contents () /Dest [ 112 0 R /XYZ 40.01575 668.6394 0 ] /Rect [ 548.8975 412.7894 555.2598 424.7894 ] /Subtype /Link /Type /Annot >>
 endobj
 44 0 obj
 << /Border [ 0 0 0 ] /Contents () /Dest [ 112 0 R /XYZ 40.01575 519.4394 0 ] /Rect [ 60.01575 394.7894 130.0499 406.7894 ] /Subtype /Link /Type /Annot >>
@@ -3684,7 +3684,7 @@ endobj
 << /Outlines 153 0 R /PageLabels 205 0 R /PageMode /UseNone /Pages 190 0 R /Type /Catalog >>
 endobj
 152 0 obj
-<< /Author () /CreationDate <rst2pdf.createpdf.PDFDate instance at 0x2b5b265a3518> /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
+<< /Author () /CreationDate <rst2pdf.createpdf.PDFDate instance at 0x2b46596b6710> /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
   /Title () >>
 endobj
 153 0 obj
@@ -3745,18 +3745,18 @@ endobj
 << /Dest [ 110 0 R /XYZ 40.01575 714.6394 0 ] /Parent 167 0 R /Prev 168 0 R /Title (Glanceable interface) >>
 endobj
 170 0 obj
-<< /Count 3 /Dest [ 110 0 R /XYZ 40.01575 618.2394 0 ] /First 171 0 R /Last 173 0 R /Parent 166 0 R /Prev 167 0 R 
+<< /Count 3 /Dest [ 110 0 R /XYZ 40.01575 618.2394 0 ] /First 171 0 R /Last 172 0 R /Parent 166 0 R /Prev 167 0 R 
   /Title (Reliance on preexisting work) >>
 endobj
 171 0 obj
-<< /Count 1 /Dest [ 110 0 R /XYZ 40.01575 273.4394 0 ] /First 172 0 R /Last 172 0 R /Next 173 0 R /Parent 170 0 R 
-  /Title (Uses of Nightscout) >>
+<< /Dest [ 110 0 R /XYZ 40.01575 273.4394 0 ] /Next 172 0 R /Parent 170 0 R /Title (Uses of Nightscout) >>
 endobj
 172 0 obj
-<< /Dest [ 112 0 R /XYZ 40.01575 699.0394 0 ] /Parent 171 0 R /Title (Requirements) >>
+<< /Count 1 /Dest [ 112 0 R /XYZ 40.01575 699.0394 0 ] /First 173 0 R /Last 173 0 R /Parent 170 0 R /Prev 171 0 R 
+  /Title (Requirements) >>
 endobj
 173 0 obj
-<< /Dest [ 112 0 R /XYZ 40.01575 669.8394 0 ] /Parent 170 0 R /Prev 171 0 R /Title (Nightscout uploader device) >>
+<< /Dest [ 112 0 R /XYZ 40.01575 668.6394 0 ] /Parent 172 0 R /Title (Nightscout uploader device) >>
 endobj
 174 0 obj
 << /Dest [ 112 0 R /XYZ 40.01575 519.4394 0 ] /Next 175 0 R /Parent 154 0 R /Prev 166 0 R /Title (Previous work) >>
@@ -4158,7 +4158,7 @@ Q
 q
 1 0 0 1 0 309 cm
 q
-BT 1 0 0 1 80 2 Tm 12 TL 0 0 .501961 rg /F3+0 10 Tf 12 TL (Requirements) Tj T* ET
+BT 1 0 0 1 60 2 Tm 12 TL 0 0 .501961 rg /F3+0 10 Tf 12 TL (Requirements) Tj T* ET
 Q
 Q
 q
@@ -4172,7 +4172,7 @@ Q
 q
 1 0 0 1 0 291 cm
 q
-BT 1 0 0 1 60 2 Tm 12 TL 0 0 .501961 rg /F3+0 10 Tf 12 TL (Nightscout uploader device) Tj T* ET
+BT 1 0 0 1 80 2 Tm 12 TL 0 0 .501961 rg /F3+0 10 Tf 12 TL (Nightscout uploader device) Tj T* ET
 Q
 Q
 q
@@ -5267,15 +5267,15 @@ BT 1 0 0 1 0 62 Tm 1.969723 Tw 12 TL 0 0 0 rg /F3+0 10 Tf 12 TL (takes to use th
 Q
 Q
 q
-1 0 0 1 40.01575 685.8394 cm
+1 0 0 1 40.01575 684.6394 cm
 q
 .8 .8 .8 RG
 .3 w
 .94902 .94902 .94902 rg
-n -10 0 525.2441 19.2 re B*
+n -10 0 525.2441 20.4 re B*
 Q
 q
-BT 1 0 0 1 0 2.2 Tm 13.2 TL .12549 .262745 .360784 rg /F4+0 11 Tf 13.2 TL (Requirements) Tj T* ET
+BT 1 0 0 1 0 2.4 Tm 14.4 TL .12549 .262745 .360784 rg /F4+0 12 Tf 14.4 TL (Requirements) Tj T* ET
 Q
 Q
 q
@@ -5284,10 +5284,10 @@ q
 .8 .8 .8 RG
 .3 w
 .94902 .94902 .94902 rg
-n -10 0 525.2441 20.4 re B*
+n -10 0 525.2441 19.2 re B*
 Q
 q
-BT 1 0 0 1 0 2.4 Tm 14.4 TL .12549 .262745 .360784 rg /F4+0 12 Tf 14.4 TL (Nightscout uploader device) Tj T* ET
+BT 1 0 0 1 0 2.2 Tm 13.2 TL .12549 .262745 .360784 rg /F4+0 11 Tf 13.2 TL (Nightscout uploader device) Tj T* ET
 Q
 Q
 q
@@ -6404,8 +6404,8 @@ xref
 0001195328 00000 n
 0001195457 00000 n
 0001195636 00000 n
-0001195805 00000 n
-0001195912 00000 n
+0001195763 00000 n
+0001195926 00000 n
 0001196047 00000 n
 0001196183 00000 n
 0001196380 00000 n
@@ -6582,16 +6582,16 @@ endobj
 << /Border [ 0 0 0 ] /Contents () /Dest [ 110 0 R /XYZ 40.01575 273.4394 0 ] /Rect [ 548.8975 448.7894 555.2598 460.7894 ] /Subtype /Link /Type /Annot >>
 endobj
 40 0 obj
-<< /Border [ 0 0 0 ] /Contents () /Dest [ 112 0 R /XYZ 40.01575 699.0394 0 ] /Rect [ 120.0157 430.7894 190.2062 442.7894 ] /Subtype /Link /Type /Annot >>
+<< /Border [ 0 0 0 ] /Contents () /Dest [ 112 0 R /XYZ 40.01575 699.0394 0 ] /Rect [ 100.0157 430.7894 170.2062 442.7894 ] /Subtype /Link /Type /Annot >>
 endobj
 41 0 obj
 << /Border [ 0 0 0 ] /Contents () /Dest [ 112 0 R /XYZ 40.01575 699.0394 0 ] /Rect [ 548.8975 430.7894 555.2598 442.7894 ] /Subtype /Link /Type /Annot >>
 endobj
 42 0 obj
-<< /Border [ 0 0 0 ] /Contents () /Dest [ 112 0 R /XYZ 40.01575 669.8394 0 ] /Rect [ 100.0157 412.7894 237.4913 424.7894 ] /Subtype /Link /Type /Annot >>
+<< /Border [ 0 0 0 ] /Contents () /Dest [ 112 0 R /XYZ 40.01575 668.6394 0 ] /Rect [ 120.0157 412.7894 257.4913 424.7894 ] /Subtype /Link /Type /Annot >>
 endobj
 43 0 obj
-<< /Border [ 0 0 0 ] /Contents () /Dest [ 112 0 R /XYZ 40.01575 669.8394 0 ] /Rect [ 548.8975 412.7894 555.2598 424.7894 ] /Subtype /Link /Type /Annot >>
+<< /Border [ 0 0 0 ] /Contents () /Dest [ 112 0 R /XYZ 40.01575 668.6394 0 ] /Rect [ 548.8975 412.7894 555.2598 424.7894 ] /Subtype /Link /Type /Annot >>
 endobj
 44 0 obj
 << /Border [ 0 0 0 ] /Contents () /Dest [ 112 0 R /XYZ 40.01575 519.4394 0 ] /Rect [ 60.01575 394.7894 130.0499 406.7894 ] /Subtype /Link /Type /Annot >>
@@ -10146,7 +10146,7 @@ endobj
 << /Outlines 153 0 R /PageLabels 205 0 R /PageMode /UseNone /Pages 190 0 R /Type /Catalog >>
 endobj
 152 0 obj
-<< /Author () /CreationDate <rst2pdf.createpdf.PDFDate instance at 0x2b5b2592fa70> /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
+<< /Author () /CreationDate <rst2pdf.createpdf.PDFDate instance at 0x2b4659539b48> /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
   /Title () >>
 endobj
 153 0 obj
@@ -10207,18 +10207,18 @@ endobj
 << /Dest [ 110 0 R /XYZ 40.01575 714.6394 0 ] /Parent 167 0 R /Prev 168 0 R /Title (Glanceable interface) >>
 endobj
 170 0 obj
-<< /Count 3 /Dest [ 110 0 R /XYZ 40.01575 618.2394 0 ] /First 171 0 R /Last 173 0 R /Parent 166 0 R /Prev 167 0 R 
+<< /Count 3 /Dest [ 110 0 R /XYZ 40.01575 618.2394 0 ] /First 171 0 R /Last 172 0 R /Parent 166 0 R /Prev 167 0 R 
   /Title (Reliance on preexisting work) >>
 endobj
 171 0 obj
-<< /Count 1 /Dest [ 110 0 R /XYZ 40.01575 273.4394 0 ] /First 172 0 R /Last 172 0 R /Next 173 0 R /Parent 170 0 R 
-  /Title (Uses of Nightscout) >>
+<< /Dest [ 110 0 R /XYZ 40.01575 273.4394 0 ] /Next 172 0 R /Parent 170 0 R /Title (Uses of Nightscout) >>
 endobj
 172 0 obj
-<< /Dest [ 112 0 R /XYZ 40.01575 699.0394 0 ] /Parent 171 0 R /Title (Requirements) >>
+<< /Count 1 /Dest [ 112 0 R /XYZ 40.01575 699.0394 0 ] /First 173 0 R /Last 173 0 R /Parent 170 0 R /Prev 171 0 R 
+  /Title (Requirements) >>
 endobj
 173 0 obj
-<< /Dest [ 112 0 R /XYZ 40.01575 669.8394 0 ] /Parent 170 0 R /Prev 171 0 R /Title (Nightscout uploader device) >>
+<< /Dest [ 112 0 R /XYZ 40.01575 668.6394 0 ] /Parent 172 0 R /Title (Nightscout uploader device) >>
 endobj
 174 0 obj
 << /Dest [ 112 0 R /XYZ 40.01575 519.4394 0 ] /Next 175 0 R /Parent 154 0 R /Prev 166 0 R /Title (Previous work) >>
@@ -10620,7 +10620,7 @@ Q
 q
 1 0 0 1 0 309 cm
 q
-BT 1 0 0 1 80 2 Tm 12 TL 0 0 .501961 rg /F3+0 10 Tf 12 TL (Requirements) Tj T* ET
+BT 1 0 0 1 60 2 Tm 12 TL 0 0 .501961 rg /F3+0 10 Tf 12 TL (Requirements) Tj T* ET
 Q
 Q
 q
@@ -10634,7 +10634,7 @@ Q
 q
 1 0 0 1 0 291 cm
 q
-BT 1 0 0 1 60 2 Tm 12 TL 0 0 .501961 rg /F3+0 10 Tf 12 TL (Nightscout uploader device) Tj T* ET
+BT 1 0 0 1 80 2 Tm 12 TL 0 0 .501961 rg /F3+0 10 Tf 12 TL (Nightscout uploader device) Tj T* ET
 Q
 Q
 q
@@ -11729,15 +11729,15 @@ BT 1 0 0 1 0 62 Tm 1.969723 Tw 12 TL 0 0 0 rg /F3+0 10 Tf 12 TL (takes to use th
 Q
 Q
 q
-1 0 0 1 40.01575 685.8394 cm
+1 0 0 1 40.01575 684.6394 cm
 q
 .8 .8 .8 RG
 .3 w
 .94902 .94902 .94902 rg
-n -10 0 525.2441 19.2 re B*
+n -10 0 525.2441 20.4 re B*
 Q
 q
-BT 1 0 0 1 0 2.2 Tm 13.2 TL .12549 .262745 .360784 rg /F4+0 11 Tf 13.2 TL (Requirements) Tj T* ET
+BT 1 0 0 1 0 2.4 Tm 14.4 TL .12549 .262745 .360784 rg /F4+0 12 Tf 14.4 TL (Requirements) Tj T* ET
 Q
 Q
 q
@@ -11746,10 +11746,10 @@ q
 .8 .8 .8 RG
 .3 w
 .94902 .94902 .94902 rg
-n -10 0 525.2441 20.4 re B*
+n -10 0 525.2441 19.2 re B*
 Q
 q
-BT 1 0 0 1 0 2.4 Tm 14.4 TL .12549 .262745 .360784 rg /F4+0 12 Tf 14.4 TL (Nightscout uploader device) Tj T* ET
+BT 1 0 0 1 0 2.2 Tm 13.2 TL .12549 .262745 .360784 rg /F4+0 11 Tf 13.2 TL (Nightscout uploader device) Tj T* ET
 Q
 Q
 q
@@ -12866,8 +12866,8 @@ xref
 0001195325 00000 n
 0001195454 00000 n
 0001195633 00000 n
-0001195802 00000 n
-0001195909 00000 n
+0001195760 00000 n
+0001195923 00000 n
 0001196044 00000 n
 0001196180 00000 n
 0001196377 00000 n
