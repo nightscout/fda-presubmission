@@ -3684,7 +3684,7 @@ endobj
 << /Outlines 153 0 R /PageLabels 205 0 R /PageMode /UseNone /Pages 190 0 R /Type /Catalog >>
 endobj
 152 0 obj
-<< /Author () /CreationDate <rst2pdf.createpdf.PDFDate instance at 0x2b14307ac710> /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
+<< /Author () /CreationDate <rst2pdf.createpdf.PDFDate instance at 0x2b49d117ed40> /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
   /Title () >>
 endobj
 153 0 obj
@@ -4430,7 +4430,7 @@ Q
 endstream
 endobj
 195 0 obj
-<< /Length 7718 >>
+<< /Length 7754 >>
 stream
 1 0 0 1 0 0 cm 
 q
@@ -4720,6 +4720,9 @@ q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm 3.49051 Tw /F3+0 10 Tf 12 TL (We request a meeting to discuss the risks and safety Nightscout. Please review the following) Tj T* 0 Tw .390622 Tw (discussion of the device description, future plans, and questions. We are happy to schedule meetings) Tj T* 0 Tw (as needed.) Tj T* ET
 Q
+Q
+q
+1 0 0 1 40.01575 248.2394 cm
 Q
 q
 1 0 0 1 40.01575 213.0394 cm
@@ -6428,37 +6431,37 @@ xref
 0001199584 00000 n
 0001209526 00000 n
 0001209638 00000 n
-0001217414 00000 n
-0001225287 00000 n
-0001229186 00000 n
-0001229579 00000 n
-0001229971 00000 n
-0001237422 00000 n
-0001244651 00000 n
-0001251766 00000 n
-0001261710 00000 n
-0001264836 00000 n
-0001265024 00000 n
-0001265062 00000 n
-0001265100 00000 n
-0001265138 00000 n
-0001265176 00000 n
-0001265214 00000 n
-0001265252 00000 n
-0001265290 00000 n
-0001265328 00000 n
-0001265366 00000 n
-0001265404 00000 n
-0001265442 00000 n
-0001265480 00000 n
-0001265518 00000 n
+0001217450 00000 n
+0001225323 00000 n
+0001229222 00000 n
+0001229615 00000 n
+0001230007 00000 n
+0001237458 00000 n
+0001244687 00000 n
+0001251802 00000 n
+0001261746 00000 n
+0001264872 00000 n
+0001265060 00000 n
+0001265098 00000 n
+0001265136 00000 n
+0001265174 00000 n
+0001265212 00000 n
+0001265250 00000 n
+0001265288 00000 n
+0001265326 00000 n
+0001265364 00000 n
+0001265402 00000 n
+0001265440 00000 n
+0001265478 00000 n
+0001265516 00000 n
+0001265554 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com)
  [(-\270/\215\023\374\232\255\017j\310\301DYu\363) (-\270/\215\023\374\232\255\017j\310\301DYu\363)]
  /Info 152 0 R /Root 151 0 R /Size 220 >>
 startxref
-1265557
+1265593
 %%EOF
 %PDF-1.4
 %“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
@@ -10146,7 +10149,7 @@ endobj
 << /Outlines 153 0 R /PageLabels 205 0 R /PageMode /UseNone /Pages 190 0 R /Type /Catalog >>
 endobj
 152 0 obj
-<< /Author () /CreationDate <rst2pdf.createpdf.PDFDate instance at 0x2b143062fb48> /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
+<< /Author () /CreationDate <rst2pdf.createpdf.PDFDate instance at 0x2b49d1269ea8> /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
   /Title () >>
 endobj
 153 0 obj
@@ -10892,7 +10895,7 @@ Q
 endstream
 endobj
 195 0 obj
-<< /Length 7718 >>
+<< /Length 7754 >>
 stream
 1 0 0 1 0 0 cm 
 q
@@ -11182,6 +11185,9 @@ q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm 3.49051 Tw /F3+0 10 Tf 12 TL (We request a meeting to discuss the risks and safety Nightscout. Please review the following) Tj T* 0 Tw .390622 Tw (discussion of the device description, future plans, and questions. We are happy to schedule meetings) Tj T* 0 Tw (as needed.) Tj T* ET
 Q
+Q
+q
+1 0 0 1 40.01575 248.2394 cm
 Q
 q
 1 0 0 1 40.01575 213.0394 cm
@@ -12890,35 +12896,35 @@ xref
 0001199581 00000 n
 0001209523 00000 n
 0001209635 00000 n
-0001217411 00000 n
-0001225511 00000 n
-0001229183 00000 n
-0001229576 00000 n
-0001229968 00000 n
-0001237419 00000 n
-0001244648 00000 n
-0001251763 00000 n
-0001261707 00000 n
-0001264833 00000 n
-0001265021 00000 n
-0001265059 00000 n
-0001265097 00000 n
-0001265135 00000 n
-0001265173 00000 n
-0001265211 00000 n
-0001265249 00000 n
-0001265287 00000 n
-0001265325 00000 n
-0001265363 00000 n
-0001265401 00000 n
-0001265439 00000 n
-0001265477 00000 n
-0001265515 00000 n
+0001217447 00000 n
+0001225547 00000 n
+0001229219 00000 n
+0001229612 00000 n
+0001230004 00000 n
+0001237455 00000 n
+0001244684 00000 n
+0001251799 00000 n
+0001261743 00000 n
+0001264869 00000 n
+0001265057 00000 n
+0001265095 00000 n
+0001265133 00000 n
+0001265171 00000 n
+0001265209 00000 n
+0001265247 00000 n
+0001265285 00000 n
+0001265323 00000 n
+0001265361 00000 n
+0001265399 00000 n
+0001265437 00000 n
+0001265475 00000 n
+0001265513 00000 n
+0001265551 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com)
  [(-\270/\215\023\374\232\255\017j\310\301DYu\363) (-\270/\215\023\374\232\255\017j\310\301DYu\363)]
  /Info 152 0 R /Root 151 0 R /Size 220 >>
 startxref
-1265554
+1265590
 %%EOF

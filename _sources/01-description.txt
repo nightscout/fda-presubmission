@@ -1,4 +1,7 @@
 
+.. raw:: pdf
+
+   FrameBreak 50
 ==========
 Nightscout
 ==========
