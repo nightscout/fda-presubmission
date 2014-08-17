@@ -119,7 +119,7 @@ result, fewer interruptions from physically touching the medical device
 increases discretion because social disruptions are also reduced.
 
 Requirements
-^^^^^^^^^^^^
+------------
 
 Nightscout uploader device
 ++++++++++++++++++++++++++
