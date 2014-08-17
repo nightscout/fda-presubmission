@@ -81,10 +81,9 @@ There is no expected difference in Dexcom's behavior when the uploader
 smartphone is attached or while our software is auditing the records
 on the Dexcom receiver.
 
-
 .. raw:: pdf
 
-    FrameBreak 50
+    FrameBreak 150
 
 cgm-pebble
 ##########
@@ -115,7 +114,7 @@ controlled path to apply latest updates from trusted contributors.
 
 .. raw:: pdf
 
-    FrameBreak 50
+    FrameBreak 150
 
 Assembly and guides
 -------------------
