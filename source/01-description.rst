@@ -5,9 +5,9 @@ Nightscout
 
 Nightscout is a suite of open source projects.  A smartphone provides
 ubiquitous network connectivity to Dexcom's wireless receiver.  After a polling
-period the last reading from the Dexcom reciever is transmitted to a database
-on the internet.  A website renders near-real-time views of the records stored
-in that database.  Additionally, the website offers an http endpoint that a
+period the last reading from the Dexcom receiver is transmitted to a database
+on the Internet.  A website renders near-real-time views of the records stored
+in that database.  Additionally, the website offers a ``RESTful API`` that a
 pebble watch can use to display the last known alarm status, trend, and glucose
 level as reported by the Dexcom receiver.
 
@@ -19,10 +19,13 @@ Nightscout project
 The Nightscout project is actually a suite of several independent
 projects:
 
-* `android-uploader`_ - Android app to poll dexcom, upload to cloud
-* `cgm-remote-monitor`_ - A node.js web application that displays values
+* `android-uploader`_ - Android application to poll the Dexcom receiver,
+  transferring the data to cloud.
+
+* `cgm-remote-monitor`_ - A ``node.js`` web application that displays values
   stored by the Dexcom.
-* `cgm-pebble`_ - A pebble watchface that reads and displays values from
+
+* `cgm-pebble`_ - A pebble watch face that displays values reported by 
   `cgm-remote-monitor`_.
 
 When assembled, the completed device is called a "Nightscout rig."
@@ -36,16 +39,16 @@ community maintained forum software.
 cgm-remote-monitor_
 ###################
 
-This is a web app which simulates the display of a Dexcom receiver.
-In addition to showing the last known glucose level, it displays when
-the reading was taken, and offers a way to pan several hours
-retrospectively.
+This is a web application which simulates the display of a Dexcom
+receiver.  In addition to showing the last known glucose level, it
+displays when the reading was taken, and offers a way to pan several
+hours retrospectively.
 
-Every 5 minutes, a node.js server polls a mongo database, emitting the
-last readings over the last two days to any listeners subscribed to
-the server's "sgv" websocket event.  The server also serves a
-combination of html, css, and javascript to simulate a
-near-real-time display of the Dexcom receiver.
+Every 5 minutes, a ``node.js`` server polls a mongo database, emitting
+the last readings over the last two days to any listeners subscribed
+to the server's ``sgv`` websocket event.  The server also serves a
+combination of html, css, and javascript to simulate a near-real-time
+display of the Dexcom receiver.
 
 The web display works on most modern web browsers.
 
@@ -57,8 +60,8 @@ application starts when a Dexcom receiver is detected using the
 operating system's usb management system.  The application reads data
 from the serial port made available by Dexcom's usb connection, and
 uploads the latest record to a specified data backend.  The backend
-may either be a RESTful API or a mongo db, and is configured using a
-preferences panel inthe application.
+may either be a RESTful API or a mongo database, and is configured using a
+preferences panel in the application.
 
 The `android-uploader`_ source code must be compiled and distributed as
 an APK before it can run on an Android smartphone.  Once installed and
@@ -79,7 +82,7 @@ on the Dexcom receiver.
 cgm-pebble
 ##########
 
-`cgm-pebble`_ is a C and javascript watchface developed using
+`cgm-pebble`_ is a C and javascript watch face developed using
 PebbleSDK.  The javascript code runs on a Smartphone maintaining
 bluetooth connectivity to the Pebble watch.  The javascript code
 retrieves information from `cgm-remote-monitor`_ and sends the last
@@ -92,12 +95,12 @@ instance of `cgm-remote-monitor`_.
 Development
 -----------
 
-Development takes place using github, from the nightscout organization
+Development takes place using Github, from the Nightscout organization
 page: https://github.com/nightscout/.
 Modifications, upgrades, development, and issue tracking happen using
 the resources connected to assets shared by a community of people.
 Each and every change to the source code is tracked by git and
-discussed through a github pull request.  Upgrades are provided by
+discussed through a Github pull request.  Upgrades are provided by
 providing git merge requests, often using the Github UI, by
 identifying the last commit hash in use, and a verified change
 controlled path to apply latest updates from trusted contributors.
@@ -105,16 +108,16 @@ controlled path to apply latest updates from trusted contributors.
 
 Assembly and guides
 -------------------
-The git repos merely provide the source code, and a verified way of
+The git repositories merely provide the source code, and a verified way of
 exchanging source code for these projects.  In order to be used, the
 source code must be configured, compiled, deployed, and installed.
 
-While each repo contains instructions on how to test and work with
-that repo, the Nightscout `development guides`_, `forums`_, `youtube
+While each repository contains instructions on how to test and work with
+that repository, the Nightscout `development guides`_, `forums`_, `youtube
 videos`_, `pictures`_, `twitter account`_, and `Facebook group`_
 provide "educational" material on how people have combined and
 configured these disparate parts to assemble something resembling a
-"medical device."  The web guides also reside in a git repo, where
+"medical device."  The web guides also reside in a git repository, where
 improvements are proposed by the community, reviewed, and adopted in
 similar manner to the source code itself.
 

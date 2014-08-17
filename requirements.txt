@@ -1,1 +1,2 @@
 rst2pdf
+sphinxcontrib-spelling

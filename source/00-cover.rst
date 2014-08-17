@@ -17,9 +17,9 @@ To the
 The eCopy is an exact duplicate of the paper copy, except for the
 following differences:
   * for security, a wet, inked signature is only provided on the hard
-    copy, and absent in the digital and online versions of this ecopy
+    copy, and absent in the digital and online versions of this eCopy
 
-  * An exact copy of this ecopy has been permanently archived in git
+  * An exact copy of this eCopy has been permanently archived in git
     at tag ``1.0.0`` and `may be retrieved from the website`.
 
 .. _may be retrieved from the website: https://github.com/nightscout/fda-presubmission/blob/1.0.0/nightscout-fda-presubmission.pdf?raw=true

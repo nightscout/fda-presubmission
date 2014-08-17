@@ -190,6 +190,11 @@ github: pdf
 	git push -f origin gh-pages;
 	rm -rf ~/tmp/nightscout-fda-presubmission-docs
 
+spelling:
+	$(SPHINXBUILD) -b spelling -N $(ALLSPHINXOPTS) $(BUILDDIR)/spelling
+	@echo
+	@echo "Build finished.  The spelling files are in $(BUILDDIR)/spelling."
+
 pdf:
 	$(SPHINXBUILD) -b pdf $(ALLSPHINXOPTS) $(BUILDDIR)/pdf
 	@echo

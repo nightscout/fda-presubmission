@@ -36,6 +36,7 @@ extensions = [
     'sphinx.ext.pngmath',
     'rst2pdf.pdfbuilder',
     'edit_on_github',
+    'sphinxcontrib.spelling',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -358,3 +359,4 @@ pdf_style_path = [ '.', '_styles']
 edit_on_github_project = 'nightscout/fda-presubmission'
 edit_on_github_branch = 'master'
 
+spelling_show_suggestions = os.environ.get('SPELLING_SUGGESTIONS', False) and True or False
