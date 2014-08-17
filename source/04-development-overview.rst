@@ -38,6 +38,10 @@ community accepted versions.  When community members report bugs, this
 tracking system allows developers to reproduce and co-ordinate fixes,
 in some cases specifically tailored to members' needs.
 
+.. raw:: pdf
+
+    FrameBreak 50
+
 For example, in one instance, a several individuals outside the U.S.
 needed displays in ``mmol/L`` vs ``mg/dL``.  A group of interested members
 teamed up to work on special mmol/l versions.  The member actually
