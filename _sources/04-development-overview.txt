@@ -131,6 +131,10 @@ and the pending `decoding-carelink pre-submission`_.
 .. _`decoding-carelink pre-submission`: http://medevice-users.github.io/decoding-presub/#
 
 
+.. raw:: pdf
+
+    FrameBreak 100
+
 Operational metadata
 ++++++++++++++++++++
 We anticipate adding indicators showing the connectivity status of the
