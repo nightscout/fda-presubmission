@@ -20,7 +20,7 @@ following differences:
     copy, and absent in the digital and online versions of this eCopy
 
   * An exact copy of this eCopy has been permanently archived in git
-    at tag ``1.0.0`` and `may be retrieved from the website_`.
+    at tag ``1.0.0`` and `may be retrieved from the website`_.
 
 .. _may be retrieved from the website: https://github.com/nightscout/fda-presubmission/blob/1.0.0/nightscout-fda-presubmission.pdf?raw=true
 
