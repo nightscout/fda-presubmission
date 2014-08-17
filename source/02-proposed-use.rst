@@ -83,7 +83,7 @@ current status of therapy, more in line with the way the users of these
 tools feel is acceptable.
 
 Uses of Nightscout
-------------------
+++++++++++++++++++
 
 Nightscout is useful any time remote near-real-time monitoring of
 Dexcom readings are desirable.  People with diabetes find it useful to
@@ -119,7 +119,7 @@ result, fewer interruptions from physically touching the medical device
 increases discretion because social disruptions are also reduced.
 
 Requirements
-------------
+^^^^^^^^^^^^
 
 Nightscout uploader device
 ++++++++++++++++++++++++++
