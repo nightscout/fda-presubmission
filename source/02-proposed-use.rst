@@ -119,10 +119,10 @@ result, fewer interruptions from physically touching the medical device
 increases discretion because social disruptions are also reduced.
 
 Requirements
-------------
+++++++++++++
 
 Nightscout uploader device
-++++++++++++++++++++++++++
+__________________________
 An uploader device is an Android smartphone capable of "USB OTG"
 capability.  These are commonly available.  WIFI only versions, known
 as "android mini-computers" or and "Android TV box" are also commonly
