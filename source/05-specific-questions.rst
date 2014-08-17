@@ -31,8 +31,9 @@ Specific Questions
   * Can we work on some framework to provide FDA with oversight for open
     source projects like Nightscout.
 
-  * How would this project be categorized, pending
-    http://blogs.fda.gov/fdavoice/index.php/2014/06/fda-encourages-medical-device-data-system-innovation/
+  * How would this project be categorized, `pending the current MDDS
+    guidance`_
+
     * Is this a real-time or "active" monitoring application?
 
       * Does classifying this as Class III, "high risk" medical device
@@ -56,3 +57,4 @@ Specific Questions
     protection from liability, perhaps as outlined by Karen Sandler in "Killed
     by Code, Transparent Medical Devices?"
 
+.. _pending the current MDDS guidance: http://blogs.fda.gov/fdavoice/index.php/2014/06/fda-encourages-medical-device-data-system-innovation/
