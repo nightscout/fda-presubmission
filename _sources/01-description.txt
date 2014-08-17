@@ -82,6 +82,10 @@ smartphone is attached or while our software is auditing the records
 on the Dexcom receiver.
 
 
+.. raw:: pdf
+
+    FrameBreak 50
+
 cgm-pebble
 ##########
 
@@ -108,6 +112,10 @@ providing git merge requests, often using the Github UI, by
 identifying the last commit hash in use, and a verified change
 controlled path to apply latest updates from trusted contributors.
 
+
+.. raw:: pdf
+
+    FrameBreak 50
 
 Assembly and guides
 -------------------
