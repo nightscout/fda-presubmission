@@ -1,0 +1,6 @@
+
+VERSION='1.0.0'
+RELEASE=VERSION
+
+__all__ = ['VERSION', 'RELEASE']
+
