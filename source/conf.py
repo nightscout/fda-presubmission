@@ -36,8 +36,10 @@ extensions = [
     'sphinx.ext.pngmath',
     'rst2pdf.pdfbuilder',
     'edit_on_github',
-    'sphinxcontrib.spelling',
 ]
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+if not on_rtd:
+  extensions.append('sphinxcontrib.spelling')
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
