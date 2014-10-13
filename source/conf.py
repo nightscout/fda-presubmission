@@ -21,6 +21,7 @@ import os
 #sys.path.insert(0, os.path.abspath('.'))
 # os.environ['PYTHONPATH'] = os.path.abspath('_ext')
 sys.path.insert(0, os.path.abspath('_ext'))
+sys.path.insert(0, os.path.abspath('../'))
 # sys.path.insert(0, os.path.abspath('.'))
 
 # -- General configuration ------------------------------------------------
@@ -62,7 +63,7 @@ copyright = u'2014, Nightscout contributors'
 # built documents.
 #
 # The short X.Y version.
-from .. import my
+import my
 version = my.VERSION
 # The full version, including alpha/beta/rc tags.
 release = my.RELEASE
