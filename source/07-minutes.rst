@@ -24,13 +24,25 @@ Attendees
 ---------
 Participant introductions of attendees:
 
-John Costik, Ping Fang, Ben West, and Scott Leibrand: CGM in the Cloud /
-Nightscout
-Bennet Dunlap: Your Diabetes May Vary
-Mark O’Donnell: Medtronic
+CGM in the Cloud / Nightscout
+_____________________________
+John Costik, Ping Fang, Ben West, and Scott
+Leibrand
 
-Beth Stephen, Dan St. Pierre, Robert Sauer, Stayce Beck, Courtney Lias,
-Katherine Serrano, Suzanne Schwartz, and Ariel Seeley: FDA
+Your Diabetes May Vary
+......................
+Bennet Dunlap
+
+Invited guests
+..............
+Medtronic: Mark O’Donnell
+
+
+FDA
+___
+Beth Stephen, Dan St. Pierre, Robert Sauer,
+Stayce Beck, Courtney Lias, Katherine Serrano,
+Suzanne Schwartz, and Ariel Seeley
 
 Discussion Topics
 -----------------
