@@ -36,6 +36,7 @@ aka "CGM in the Cloud."
 The sponsor, collectively known as Nightscout contributors, may be
 contacted through one of the core developers:
 
+| bewest@gmail.com
 | Ben West
 | 4521 17th St. Apt 5
 | San Francisco, CA 94114

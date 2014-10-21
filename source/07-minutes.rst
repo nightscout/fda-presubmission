@@ -77,3 +77,9 @@ already being covered, and which areas require improvements. The FDA
 and Nightscout would both like to meet again, definitely sooner than 6
 months from now.
 
+See also
+--------
+See this gist for additional resources relating to the meeting,
+including a rough transcription.
+
+  * https://gist.github.com/bewest/cac2346071a7ce1e057d
