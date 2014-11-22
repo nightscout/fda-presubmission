@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/nightscout/fda-presubmission.png?label=ready&title=Ready)](https://waffle.io/nightscout/fda-presubmission)
 # nightscout fda presubmission
 
 sphinx presub ecopy source
