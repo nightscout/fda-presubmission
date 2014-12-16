@@ -279,16 +279,16 @@ endobj
 << /Border [ 0 0 0 ] /Contents () /Dest [ 144 0 R /XYZ 40.01575 225.0394 0 ] /Rect [ 542.5352 766.7894 555.2598 778.7894 ] /Subtype /Link /Type /Annot >>
 endobj
 90 0 obj
-<< /Border [ 0 0 0 ] /Contents () /Dest [ 150 0 R /XYZ 40.01575 705.0394 0 ] /Rect [ 60.01575 748.7894 89.58118 760.7894 ] /Subtype /Link /Type /Annot >>
+<< /Border [ 0 0 0 ] /Contents () /Dest [ 150 0 R /XYZ 40.01575 735.0394 0 ] /Rect [ 60.01575 748.7894 89.58118 760.7894 ] /Subtype /Link /Type /Annot >>
 endobj
 91 0 obj
-<< /Border [ 0 0 0 ] /Contents () /Dest [ 150 0 R /XYZ 40.01575 705.0394 0 ] /Rect [ 542.5352 748.7894 555.2598 760.7894 ] /Subtype /Link /Type /Annot >>
+<< /Border [ 0 0 0 ] /Contents () /Dest [ 150 0 R /XYZ 40.01575 735.0394 0 ] /Rect [ 542.5352 748.7894 555.2598 760.7894 ] /Subtype /Link /Type /Annot >>
 endobj
 92 0 obj
-<< /Border [ 0 0 0 ] /Contents () /Dest [ 150 0 R /XYZ 40.01575 639.8394 0 ] /Rect [ 40.01575 730.7894 142.9406 742.7894 ] /Subtype /Link /Type /Annot >>
+<< /Border [ 0 0 0 ] /Contents () /Dest [ 150 0 R /XYZ 40.01575 669.8394 0 ] /Rect [ 40.01575 730.7894 142.9406 742.7894 ] /Subtype /Link /Type /Annot >>
 endobj
 93 0 obj
-<< /Border [ 0 0 0 ] /Contents () /Dest [ 150 0 R /XYZ 40.01575 639.8394 0 ] /Rect [ 541.3438 730.7894 555.2598 742.7894 ] /Subtype /Link /Type /Annot >>
+<< /Border [ 0 0 0 ] /Contents () /Dest [ 150 0 R /XYZ 40.01575 669.8394 0 ] /Rect [ 541.3438 730.7894 555.2598 742.7894 ] /Subtype /Link /Type /Annot >>
 endobj
 94 0 obj
 << /Annots [ 86 0 R 87 0 R 88 0 R 89 0 R 90 0 R 91 0 R 92 0 R 93 0 R ] /Contents 227 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 222 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 
@@ -474,16 +474,16 @@ endobj
   /Type /Page >>
 endobj
 146 0 obj
-<< /A << /S /URI /Type /Action /URI (https://github.com/nightscout/fda-presubmission) >> /Border [ 0 0 0 ] /Rect [ 250.9874 668.5894 307.3383 680.5894 ] /Subtype /Link /Type /Annot >>
+<< /A << /S /URI /Type /Action /URI (https://github.com/nightscout/fda-presubmission) >> /Border [ 0 0 0 ] /Rect [ 250.9874 698.5894 307.3383 710.5894 ] /Subtype /Link /Type /Annot >>
 endobj
 147 0 obj
-<< /A << /S /URI /Type /Action /URI (http://nightscout.github.io/fda-presubmission/nightscout-fda-presubmission.pdf) >> /Border [ 0 0 0 ] /Rect [ 315.0222 668.5894 376.8744 680.5894 ] /Subtype /Link /Type /Annot >>
+<< /A << /S /URI /Type /Action /URI (http://nightscout.github.io/fda-presubmission/nightscout-fda-presubmission.pdf) >> /Border [ 0 0 0 ] /Rect [ 315.0222 698.5894 376.8744 710.5894 ] /Subtype /Link /Type /Annot >>
 endobj
 148 0 obj
-<< /A << /S /URI /Type /Action /URI (http://nightscout.github.io/fda-presubmission/) >> /Border [ 0 0 0 ] /Rect [ 510.1231 668.5894 553.9333 680.5894 ] /Subtype /Link /Type /Annot >>
+<< /A << /S /URI /Type /Action /URI (http://nightscout.github.io/fda-presubmission/) >> /Border [ 0 0 0 ] /Rect [ 510.1231 698.5894 553.9333 710.5894 ] /Subtype /Link /Type /Annot >>
 endobj
 149 0 obj
-<< /A << /S /URI /Type /Action /URI (http://nightscout.github.io/fda-presubmission/) >> /Border [ 0 0 0 ] /Rect [ 40.01575 656.5894 70.51868 668.5894 ] /Subtype /Link /Type /Annot >>
+<< /A << /S /URI /Type /Action /URI (http://nightscout.github.io/fda-presubmission/) >> /Border [ 0 0 0 ] /Rect [ 40.01575 686.5894 70.51868 698.5894 ] /Subtype /Link /Type /Annot >>
 endobj
 150 0 obj
 << /Annots [ 146 0 R 147 0 R 148 0 R 149 0 R ] /Contents 241 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 222 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 
@@ -3768,7 +3768,7 @@ endobj
 << /Outlines 177 0 R /PageLabels 242 0 R /PageMode /UseNone /Pages 222 0 R /Type /Catalog >>
 endobj
 176 0 obj
-<< /Author () /CreationDate <rst2pdf.createpdf.PDFDate instance at 0x2b5b30a27290> /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
+<< /Author () /CreationDate <rst2pdf.createpdf.PDFDate instance at 0x2b6ad5ef1ab8> /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
   /Title () >>
 endobj
 177 0 obj
@@ -3915,10 +3915,10 @@ endobj
 << /Dest [ 144 0 R /XYZ 40.01575 225.0394 0 ] /Parent 212 0 R /Prev 214 0 R /Title (Discussion Topics) >>
 endobj
 220 0 obj
-<< /Dest [ 150 0 R /XYZ 40.01575 705.0394 0 ] /Parent 178 0 R /Prev 212 0 R /Title (About) >>
+<< /Dest [ 150 0 R /XYZ 40.01575 735.0394 0 ] /Parent 178 0 R /Prev 212 0 R /Title (About) >>
 endobj
 221 0 obj
-<< /Dest [ 150 0 R /XYZ 40.01575 639.8394 0 ] /Parent 177 0 R /Prev 178 0 R /Title (Indices and tables) >>
+<< /Dest [ 150 0 R /XYZ 40.01575 669.8394 0 ] /Parent 177 0 R /Prev 178 0 R /Title (Indices and tables) >>
 endobj
 222 0 obj
 << /Count 19 /Kids [ 2 0 R 3 0 R 4 0 R 85 0 R 94 0 R 95 0 R 101 0 R 110 0 R 125 0 R 128 0 R 
@@ -6753,7 +6753,7 @@ Q
 endstream
 endobj
 240 0 obj
-<< /Length 8070 >>
+<< /Length 8894 >>
 stream
 1 0 0 1 0 0 cm 
 q
@@ -6767,43 +6767,20 @@ q
 1 0 0 1 40.01575 685.0394 cm
 Q
 q
-1 0 0 1 40.01575 523.0394 cm
+1 0 0 1 40.01575 529.0394 cm
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm  T* ET
 q
-1 0 0 1 20 156 cm
+1 0 0 1 20 150 cm
 Q
 q
-1 0 0 1 20 156 cm
+1 0 0 1 20 150 cm
 Q
 q
-1 0 0 1 20 132 cm
+1 0 0 1 20 120 cm
 0 0 0 rg
 q
-1 0 0 1 6 9 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm 8.101562 0 Td /F3+0 10 Tf 12 TL (\200) Tj T* -8.101562 0 Td ET
-Q
-Q
-q
-1 0 0 1 23 -3 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 14 Tm 1.502393 Tw /F3+0 10 Tf 12 TL (How quickly are changes/problems addressed? - Determined by interest of developers and) Tj T* 0 Tw (safety concerns) Tj T* ET
-Q
-Q
-q
-Q
-Q
-q
-1 0 0 1 20 126 cm
-Q
-q
-1 0 0 1 20 84 cm
-0 0 0 rg
-q
-1 0 0 1 6 27 cm
+1 0 0 1 6 15 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm 8.101562 0 Td /F3+0 10 Tf 12 TL (\200) Tj T* -8.101562 0 Td ET
@@ -6813,8 +6790,11 @@ q
 1 0 0 1 23 15 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm .945065 Tw /F3+0 10 Tf 12 TL (How is information on updates distributed? - Currently an informal process for development) Tj T* 0 Tw (updates and) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F3+0 10 Tf 12 TL (How quickly are changes/problems addressed?) Tj T* ET
 Q
+Q
+q
+1 0 0 1 23 9 cm
 Q
 q
 1 0 0 1 23 9 cm
@@ -6822,12 +6802,70 @@ Q
 q
 1 0 0 1 23 -3 cm
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm  T* ET
 q
-1 0 0 1 20 0 cm
+1 0 0 1 6 -3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F3+0 10 Tf 12 TL (checking) Tj T* ET
+BT 1 0 0 1 0 2 Tm 8.101562 0 Td /F3+0 10 Tf 12 TL (\200) Tj T* -8.101562 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3+0 10 Tf 12 TL (Determined by interest of developers and safety concerns) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 114 cm
+Q
+q
+1 0 0 1 20 84 cm
+0 0 0 rg
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 8.101562 0 Td /F3+0 10 Tf 12 TL (\200) Tj T* -8.101562 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3+0 10 Tf 12 TL (How is information on updates distributed?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 9 cm
+Q
+q
+1 0 0 1 23 9 cm
+Q
+q
+1 0 0 1 23 -3 cm
+0 0 0 rg
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 8.101562 0 Td /F3+0 10 Tf 12 TL (\200) Tj T* -8.101562 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3+0 10 Tf 12 TL (Currently an informal process for development updates and checking) Tj T* ET
 Q
 Q
 q
@@ -6853,24 +6891,33 @@ BT 1 0 0 1 0 2 Tm 8.101562 0 Td /F3+0 10 Tf 12 TL (\200) Tj T* -8.101562 0 Td ET
 Q
 Q
 q
-1 0 0 1 23 15 cm
+1 0 0 1 23 27 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm 2.067728 Tw /F3+0 10 Tf 12 TL (Who is responsible for code updates? - Ben currently triages, is the source code curator,) Tj T* 0 Tw (coordinates) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F3+0 10 Tf 12 TL (Who is responsible for code updates?) Tj T* ET
 Q
 Q
 q
-1 0 0 1 23 9 cm
+1 0 0 1 23 21 cm
+Q
+q
+1 0 0 1 23 21 cm
 Q
 q
 1 0 0 1 23 -3 cm
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm  T* ET
 q
-1 0 0 1 20 0 cm
+1 0 0 1 6 9 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F3+0 10 Tf 12 TL (efforts between developers. This activity is currently voluntary and informal.) Tj T* ET
+BT 1 0 0 1 0 2 Tm 8.101562 0 Td /F3+0 10 Tf 12 TL (\200) Tj T* -8.101562 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm 5.924898 Tw /F3+0 10 Tf 12 TL (Ben currently triages, is the source code curator, coordinates efforts between) Tj T* 0 Tw (developers. This activity is currently voluntary and informal.) Tj T* ET
 Q
 Q
 q
@@ -6899,8 +6946,11 @@ q
 1 0 0 1 23 15 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F3+0 10 Tf 12 TL (How are updates tracked? - Website can track which version people are using, can push) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F3+0 10 Tf 12 TL (How are updates tracked?) Tj T* ET
 Q
+Q
+q
+1 0 0 1 23 9 cm
 Q
 q
 1 0 0 1 23 9 cm
@@ -6908,12 +6958,18 @@ Q
 q
 1 0 0 1 23 -3 cm
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm  T* ET
 q
-1 0 0 1 20 0 cm
+1 0 0 1 6 -3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F3+0 10 Tf 12 TL (update requests to users.) Tj T* ET
+BT 1 0 0 1 0 2 Tm 8.101562 0 Td /F3+0 10 Tf 12 TL (\200) Tj T* -8.101562 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3+0 10 Tf 12 TL (Website can track which version people are using, can push update requests to users.) Tj T* ET
 Q
 Q
 q
@@ -6932,41 +6988,41 @@ q
 Q
 Q
 q
-1 0 0 1 40.01575 523.0394 cm
+1 0 0 1 40.01575 529.0394 cm
 Q
 q
-1 0 0 1 40.01575 469.0394 cm
+1 0 0 1 40.01575 475.0394 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 38 Tm 2.894203 Tw /F3+0 10 Tf 12 TL (The group discussed the FDA's and and Nightscout\202s shared goal of safety. The FDA hears the) Tj T* 0 Tw .271481 Tw (demand from patients for devices like Nightscout to exist, and doesn\202t have a particular problem with) Tj T* 0 Tw 1.912336 Tw (safe and effective devices of this kind coming to market. In fact, they want to make this happen) Tj T* 0 Tw (faster.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 40.01575 415.0394 cm
+1 0 0 1 40.01575 421.0394 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 38 Tm .788083 Tw /F3+0 10 Tf 12 TL (The FDA also recognizes the need for device interoperability to improve data access, along the lines) Tj T* 0 Tw 1.787804 Tw (of what Tidepool is working on. They noted recent progress on interoperability from CGM makers.) Tj T* 0 Tw 2.460629 Tw (Subsequent to the meeting, the FDA would like to hear from our community to help make sure) Tj T* 0 Tw (interoperability moves forward.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 40.01575 373.0394 cm
+1 0 0 1 40.01575 379.0394 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm .598447 Tw /F3+0 10 Tf 12 TL (The group discussed the FDA\202s desire that there be a single responsible party to ensure that nothing) Tj T* 0 Tw 2.554033 Tw (falls through the cracks. The FDA emphasized the need for one party to take responsibility. For) Tj T* 0 Tw (example, change) Tj T* ET
 Q
 Q
 q
-1 0 0 1 40.01575 103.0394 cm
+1 0 0 1 40.01575 109.0394 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 254 Tm .348203 Tw /F3+0 10 Tf 12 TL (The group discussed FDA\202s desire that there be a single responsible party to ensure that nothing falls) Tj T* 0 Tw .821937 Tw (through the cracks. The FDA emphasized the need for one party to take responsibility. For example,) Tj T* 0 Tw 1.772806 Tw (change control to determine when updates were ready to be implemented to general users, what) Tj T* 0 Tw .459958 Tw (problems need to be addressed and on what timeline, etc. should be adequately addressed. The FDA) Tj T* 0 Tw 2.051127 Tw (also asked about how problems are identified, reported, and addressed. They want to make sure) Tj T* 0 Tw 1.376625 Tw (there is a mechanism to handle, triage, and prioritize the response to complaints that might affect) Tj T* 0 Tw 1.691748 Tw (safety, to ensure that fixes can be distributed to people using the system, and to make sure that) Tj T* 0 Tw 4.665793 Tw (Nightscout is preventing unexpected complications from modifications. Nightscout stated that) Tj T* 0 Tw .433042 Tw (currently, how quickly a problem is addressed is determined by how quickly a developer picks up the) Tj T* 0 Tw .711362 Tw (issue and propose a solution. This may depend on the interest of the developers, the safety concern) Tj T* 0 Tw 4.237953 Tw (raised, and the complexity of the issue and its solution. The FDA discussed the benefits of) Tj T* 0 Tw 3.353791 Tw (implementing a process for evaluating the severity of issues and tailoring the speed at which) Tj T* 0 Tw .841236 Tw (solutions are developed to address the relative risk associated with the particular scenario. The FDA) Tj T* 0 Tw .193681 Tw (recognizes that Nightscout\202s existing methods and processes, while informal, appear to address some) Tj T* 0 Tw 1.46362 Tw (of these concerns, but would like to see further documentation of how Nightscout is doing so, and) Tj T* 0 Tw .75753 Tw (wants to ensure that there is someone ultimately responsible. FDA interests include what happens if) Tj T* 0 Tw 1.460609 Tw (developers do not \203jump\204 in quickly enough to develop solutions, the need to track issue severity,) Tj T* 0 Tw 3.390703 Tw (and concerns regarding the importance of reporting problems. Nightscout noted that they had) Tj T* 0 Tw 1.767288 Tw (determined that one person needed to be assigned as the lead. Ben West was voted by the core) Tj T* 0 Tw 2.706052 Tw (contributors to be the source code curator. FDA noted that was encouraging and that a similar) Tj T* 0 Tw 1.481233 Tw (approach could be more broadly implemented to address some of the FDA\202s safety and regulatory) Tj T* 0 Tw (concerns.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 40.01575 73.03937 cm
+1 0 0 1 40.01575 55.03937 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm .920712 Tw /F3+0 10 Tf 12 TL (The group discussed how Nightscout might be able to provide the FDA with better visibility into any) Tj T* 0 Tw .265922 Tw (events that affect patient safety. The FDA would welcome submissions from Nightscout to MedWatch,) Tj T* 0 Tw ET
+BT 1 0 0 1 0 38 Tm .920712 Tw /F3+0 10 Tf 12 TL (The group discussed how Nightscout might be able to provide the FDA with better visibility into any) Tj T* 0 Tw .265922 Tw (events that affect patient safety. The FDA would welcome submissions from Nightscout to MedWatch,) Tj T* 0 Tw 2.436233 Tw (especially if they can include as much detail as possible to see what was really going on. Such) Tj T* 0 Tw (processes will help Nightscout make decisions on how to improve the system.) Tj T* ET
 Q
 Q
 q
@@ -6987,25 +7043,18 @@ Q
 endstream
 endobj
 241 0 obj
-<< /Length 2796 >>
+<< /Length 2498 >>
 stream
 1 0 0 1 0 0 cm 
 q
-1 0 0 1 40.01575 763.0394 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 14 Tm 2.436233 Tw /F3+0 10 Tf 12 TL (especially if they can include as much detail as possible to see what was really going on. Such) Tj T* 0 Tw (processes will help Nightscout make decisions on how to improve the system.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 40.01575 721.0394 cm
+1 0 0 1 40.01575 751.0394 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm 1.212237 Tw /F3+0 10 Tf 12 TL (FDA requested that Nightscout begin working on a gap analysis to document what is already being) Tj T* 0 Tw 2.556712 Tw (covered, and which areas require improvements to come into compliance. The FDA requested a) Tj T* 0 Tw (follow-up meeting with Nightscout within a few months.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 40.01575 685.8394 cm
+1 0 0 1 40.01575 715.8394 cm
 q
 .8 .8 .8 RG
 .3 w
@@ -7017,13 +7066,13 @@ BT 1 0 0 1 0 3.2 Tm 19.2 TL .12549 .262745 .360784 rg /F1+0 16 Tf 19.2 TL (About
 Q
 Q
 q
-1 0 0 1 40.01575 655.8394 cm
+1 0 0 1 40.01575 685.8394 cm
 q
 BT 1 0 0 1 0 14 Tm 1.326494 Tw 12 TL 0 0 0 rg /F3+0 10 Tf 12 TL (In open source fashion, this document's ) Tj 0 0 .501961 rg (raw source) Tj 0 0 0 rg (, ) Tj 0 0 .501961 rg (pdf version ) Tj 0 0 0 rg (and an html rendering is ) Tj 0 0 .501961 rg (available) Tj T* 0 Tw (online) Tj 0 0 0 rg (. The purpose is to create a framework for having a discussion with the FDA.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 40.01575 615.8394 cm
+1 0 0 1 40.01575 645.8394 cm
 q
 .8 .8 .8 RG
 .3 w
@@ -7035,13 +7084,13 @@ BT 1 0 0 1 0 4 Tm 24 TL .12549 .262745 .360784 rg /F1+0 20 Tf 24 TL (Indices and
 Q
 Q
 q
-1 0 0 1 40.01575 603.8394 cm
+1 0 0 1 40.01575 633.8394 cm
 Q
 q
-1 0 0 1 40.01575 603.8394 cm
+1 0 0 1 40.01575 633.8394 cm
 Q
 q
-1 0 0 1 40.01575 591.8394 cm
+1 0 0 1 40.01575 621.8394 cm
 0 0 0 rg
 q
 1 0 0 1 6 -3 cm
@@ -7061,10 +7110,10 @@ q
 Q
 Q
 q
-1 0 0 1 40.01575 585.8394 cm
+1 0 0 1 40.01575 615.8394 cm
 Q
 q
-1 0 0 1 40.01575 573.8394 cm
+1 0 0 1 40.01575 603.8394 cm
 0 0 0 rg
 q
 1 0 0 1 6 -3 cm
@@ -7084,10 +7133,10 @@ q
 Q
 Q
 q
-1 0 0 1 40.01575 567.8394 cm
+1 0 0 1 40.01575 597.8394 cm
 Q
 q
-1 0 0 1 40.01575 555.8394 cm
+1 0 0 1 40.01575 585.8394 cm
 0 0 0 rg
 q
 1 0 0 1 6 -3 cm
@@ -7107,10 +7156,10 @@ q
 Q
 Q
 q
-1 0 0 1 40.01575 555.8394 cm
+1 0 0 1 40.01575 585.8394 cm
 Q
 q
-1 0 0 1 40.01575 555.8394 cm
+1 0 0 1 40.01575 585.8394 cm
 Q
 q
 1 0 0 1 34.01575 807.2126 cm
@@ -7435,34 +7484,34 @@ xref
 0001263261 00000 n
 0001271926 00000 n
 0001279946 00000 n
-0001288074 00000 n
-0001290928 00000 n
-0001291175 00000 n
-0001291213 00000 n
-0001291251 00000 n
-0001291289 00000 n
-0001291327 00000 n
-0001291365 00000 n
-0001291403 00000 n
-0001291441 00000 n
-0001291479 00000 n
-0001291517 00000 n
-0001291555 00000 n
-0001291593 00000 n
-0001291631 00000 n
-0001291669 00000 n
-0001291707 00000 n
-0001291745 00000 n
-0001291784 00000 n
-0001291823 00000 n
-0001291862 00000 n
+0001288898 00000 n
+0001291454 00000 n
+0001291701 00000 n
+0001291739 00000 n
+0001291777 00000 n
+0001291815 00000 n
+0001291853 00000 n
+0001291891 00000 n
+0001291929 00000 n
+0001291967 00000 n
+0001292005 00000 n
+0001292043 00000 n
+0001292081 00000 n
+0001292119 00000 n
+0001292157 00000 n
+0001292195 00000 n
+0001292233 00000 n
+0001292271 00000 n
+0001292310 00000 n
+0001292349 00000 n
+0001292388 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com)
  [(-\270/\215\023\374\232\255\017j\310\301DYu\363) (-\270/\215\023\374\232\255\017j\310\301DYu\363)]
  /Info 176 0 R /Root 175 0 R /Size 262 >>
 startxref
-1291901
+1292427
 %%EOF
 %PDF-1.4
 %“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
@@ -7741,16 +7790,16 @@ endobj
 << /Border [ 0 0 0 ] /Contents () /Dest [ 142 0 R /XYZ 40.01575 225.0394 0 ] /Rect [ 542.5352 766.7894 555.2598 778.7894 ] /Subtype /Link /Type /Annot >>
 endobj
 89 0 obj
-<< /Border [ 0 0 0 ] /Contents () /Dest [ 148 0 R /XYZ 40.01575 705.0394 0 ] /Rect [ 60.01575 748.7894 89.58118 760.7894 ] /Subtype /Link /Type /Annot >>
+<< /Border [ 0 0 0 ] /Contents () /Dest [ 148 0 R /XYZ 40.01575 735.0394 0 ] /Rect [ 60.01575 748.7894 89.58118 760.7894 ] /Subtype /Link /Type /Annot >>
 endobj
 90 0 obj
-<< /Border [ 0 0 0 ] /Contents () /Dest [ 148 0 R /XYZ 40.01575 705.0394 0 ] /Rect [ 542.5352 748.7894 555.2598 760.7894 ] /Subtype /Link /Type /Annot >>
+<< /Border [ 0 0 0 ] /Contents () /Dest [ 148 0 R /XYZ 40.01575 735.0394 0 ] /Rect [ 542.5352 748.7894 555.2598 760.7894 ] /Subtype /Link /Type /Annot >>
 endobj
 91 0 obj
-<< /Border [ 0 0 0 ] /Contents () /Dest [ 148 0 R /XYZ 40.01575 639.8394 0 ] /Rect [ 40.01575 730.7894 142.9406 742.7894 ] /Subtype /Link /Type /Annot >>
+<< /Border [ 0 0 0 ] /Contents () /Dest [ 148 0 R /XYZ 40.01575 669.8394 0 ] /Rect [ 40.01575 730.7894 142.9406 742.7894 ] /Subtype /Link /Type /Annot >>
 endobj
 92 0 obj
-<< /Border [ 0 0 0 ] /Contents () /Dest [ 148 0 R /XYZ 40.01575 639.8394 0 ] /Rect [ 541.3438 730.7894 555.2598 742.7894 ] /Subtype /Link /Type /Annot >>
+<< /Border [ 0 0 0 ] /Contents () /Dest [ 148 0 R /XYZ 40.01575 669.8394 0 ] /Rect [ 541.3438 730.7894 555.2598 742.7894 ] /Subtype /Link /Type /Annot >>
 endobj
 93 0 obj
 << /Annots [ 85 0 R 86 0 R 87 0 R 88 0 R 89 0 R 90 0 R 91 0 R 92 0 R ] /Contents 224 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 220 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 
@@ -7932,16 +7981,16 @@ endobj
   /Type /Page >>
 endobj
 144 0 obj
-<< /A << /S /URI /Type /Action /URI (https://github.com/nightscout/fda-presubmission) >> /Border [ 0 0 0 ] /Rect [ 250.9874 668.5894 307.3383 680.5894 ] /Subtype /Link /Type /Annot >>
+<< /A << /S /URI /Type /Action /URI (https://github.com/nightscout/fda-presubmission) >> /Border [ 0 0 0 ] /Rect [ 250.9874 698.5894 307.3383 710.5894 ] /Subtype /Link /Type /Annot >>
 endobj
 145 0 obj
-<< /A << /S /URI /Type /Action /URI (http://nightscout.github.io/fda-presubmission/nightscout-fda-presubmission.pdf) >> /Border [ 0 0 0 ] /Rect [ 315.0222 668.5894 376.8744 680.5894 ] /Subtype /Link /Type /Annot >>
+<< /A << /S /URI /Type /Action /URI (http://nightscout.github.io/fda-presubmission/nightscout-fda-presubmission.pdf) >> /Border [ 0 0 0 ] /Rect [ 315.0222 698.5894 376.8744 710.5894 ] /Subtype /Link /Type /Annot >>
 endobj
 146 0 obj
-<< /A << /S /URI /Type /Action /URI (http://nightscout.github.io/fda-presubmission/) >> /Border [ 0 0 0 ] /Rect [ 510.1231 668.5894 553.9333 680.5894 ] /Subtype /Link /Type /Annot >>
+<< /A << /S /URI /Type /Action /URI (http://nightscout.github.io/fda-presubmission/) >> /Border [ 0 0 0 ] /Rect [ 510.1231 698.5894 553.9333 710.5894 ] /Subtype /Link /Type /Annot >>
 endobj
 147 0 obj
-<< /A << /S /URI /Type /Action /URI (http://nightscout.github.io/fda-presubmission/) >> /Border [ 0 0 0 ] /Rect [ 40.01575 656.5894 70.51868 668.5894 ] /Subtype /Link /Type /Annot >>
+<< /A << /S /URI /Type /Action /URI (http://nightscout.github.io/fda-presubmission/) >> /Border [ 0 0 0 ] /Rect [ 40.01575 686.5894 70.51868 698.5894 ] /Subtype /Link /Type /Annot >>
 endobj
 148 0 obj
 << /Annots [ 144 0 R 145 0 R 146 0 R 147 0 R ] /Contents 237 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 220 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 
@@ -11226,7 +11275,7 @@ endobj
 << /Outlines 175 0 R /PageLabels 238 0 R /PageMode /UseNone /Pages 220 0 R /Type /Catalog >>
 endobj
 174 0 obj
-<< /Author () /CreationDate <rst2pdf.createpdf.PDFDate instance at 0x2b5b309dde18> /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
+<< /Author () /CreationDate <rst2pdf.createpdf.PDFDate instance at 0x2b6ad5e30320> /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
   /Title () >>
 endobj
 175 0 obj
@@ -11373,10 +11422,10 @@ endobj
 << /Dest [ 142 0 R /XYZ 40.01575 225.0394 0 ] /Parent 210 0 R /Prev 212 0 R /Title (Discussion Topics) >>
 endobj
 218 0 obj
-<< /Dest [ 148 0 R /XYZ 40.01575 705.0394 0 ] /Parent 176 0 R /Prev 210 0 R /Title (About) >>
+<< /Dest [ 148 0 R /XYZ 40.01575 735.0394 0 ] /Parent 176 0 R /Prev 210 0 R /Title (About) >>
 endobj
 219 0 obj
-<< /Dest [ 148 0 R /XYZ 40.01575 639.8394 0 ] /Parent 175 0 R /Prev 176 0 R /Title (Indices and tables) >>
+<< /Dest [ 148 0 R /XYZ 40.01575 669.8394 0 ] /Parent 175 0 R /Prev 176 0 R /Title (Indices and tables) >>
 endobj
 220 0 obj
 << /Count 17 /Kids [ 2 0 R 3 0 R 84 0 R 93 0 R 99 0 R 108 0 R 123 0 R 126 0 R 128 0 R 129 0 R 
@@ -14191,7 +14240,7 @@ Q
 endstream
 endobj
 236 0 obj
-<< /Length 8070 >>
+<< /Length 8894 >>
 stream
 1 0 0 1 0 0 cm 
 q
@@ -14205,43 +14254,20 @@ q
 1 0 0 1 40.01575 685.0394 cm
 Q
 q
-1 0 0 1 40.01575 523.0394 cm
+1 0 0 1 40.01575 529.0394 cm
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm  T* ET
 q
-1 0 0 1 20 156 cm
+1 0 0 1 20 150 cm
 Q
 q
-1 0 0 1 20 156 cm
+1 0 0 1 20 150 cm
 Q
 q
-1 0 0 1 20 132 cm
+1 0 0 1 20 120 cm
 0 0 0 rg
 q
-1 0 0 1 6 9 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm 8.101562 0 Td /F3+0 10 Tf 12 TL (\200) Tj T* -8.101562 0 Td ET
-Q
-Q
-q
-1 0 0 1 23 -3 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 14 Tm 1.502393 Tw /F3+0 10 Tf 12 TL (How quickly are changes/problems addressed? - Determined by interest of developers and) Tj T* 0 Tw (safety concerns) Tj T* ET
-Q
-Q
-q
-Q
-Q
-q
-1 0 0 1 20 126 cm
-Q
-q
-1 0 0 1 20 84 cm
-0 0 0 rg
-q
-1 0 0 1 6 27 cm
+1 0 0 1 6 15 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm 8.101562 0 Td /F3+0 10 Tf 12 TL (\200) Tj T* -8.101562 0 Td ET
@@ -14251,8 +14277,11 @@ q
 1 0 0 1 23 15 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm .945065 Tw /F3+0 10 Tf 12 TL (How is information on updates distributed? - Currently an informal process for development) Tj T* 0 Tw (updates and) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F3+0 10 Tf 12 TL (How quickly are changes/problems addressed?) Tj T* ET
 Q
+Q
+q
+1 0 0 1 23 9 cm
 Q
 q
 1 0 0 1 23 9 cm
@@ -14260,12 +14289,70 @@ Q
 q
 1 0 0 1 23 -3 cm
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm  T* ET
 q
-1 0 0 1 20 0 cm
+1 0 0 1 6 -3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F3+0 10 Tf 12 TL (checking) Tj T* ET
+BT 1 0 0 1 0 2 Tm 8.101562 0 Td /F3+0 10 Tf 12 TL (\200) Tj T* -8.101562 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3+0 10 Tf 12 TL (Determined by interest of developers and safety concerns) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 114 cm
+Q
+q
+1 0 0 1 20 84 cm
+0 0 0 rg
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 8.101562 0 Td /F3+0 10 Tf 12 TL (\200) Tj T* -8.101562 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3+0 10 Tf 12 TL (How is information on updates distributed?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 9 cm
+Q
+q
+1 0 0 1 23 9 cm
+Q
+q
+1 0 0 1 23 -3 cm
+0 0 0 rg
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm 8.101562 0 Td /F3+0 10 Tf 12 TL (\200) Tj T* -8.101562 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3+0 10 Tf 12 TL (Currently an informal process for development updates and checking) Tj T* ET
 Q
 Q
 q
@@ -14291,24 +14378,33 @@ BT 1 0 0 1 0 2 Tm 8.101562 0 Td /F3+0 10 Tf 12 TL (\200) Tj T* -8.101562 0 Td ET
 Q
 Q
 q
-1 0 0 1 23 15 cm
+1 0 0 1 23 27 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm 2.067728 Tw /F3+0 10 Tf 12 TL (Who is responsible for code updates? - Ben currently triages, is the source code curator,) Tj T* 0 Tw (coordinates) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F3+0 10 Tf 12 TL (Who is responsible for code updates?) Tj T* ET
 Q
 Q
 q
-1 0 0 1 23 9 cm
+1 0 0 1 23 21 cm
+Q
+q
+1 0 0 1 23 21 cm
 Q
 q
 1 0 0 1 23 -3 cm
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm  T* ET
 q
-1 0 0 1 20 0 cm
+1 0 0 1 6 9 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F3+0 10 Tf 12 TL (efforts between developers. This activity is currently voluntary and informal.) Tj T* ET
+BT 1 0 0 1 0 2 Tm 8.101562 0 Td /F3+0 10 Tf 12 TL (\200) Tj T* -8.101562 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm 5.924898 Tw /F3+0 10 Tf 12 TL (Ben currently triages, is the source code curator, coordinates efforts between) Tj T* 0 Tw (developers. This activity is currently voluntary and informal.) Tj T* ET
 Q
 Q
 q
@@ -14337,8 +14433,11 @@ q
 1 0 0 1 23 15 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F3+0 10 Tf 12 TL (How are updates tracked? - Website can track which version people are using, can push) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F3+0 10 Tf 12 TL (How are updates tracked?) Tj T* ET
 Q
+Q
+q
+1 0 0 1 23 9 cm
 Q
 q
 1 0 0 1 23 9 cm
@@ -14346,12 +14445,18 @@ Q
 q
 1 0 0 1 23 -3 cm
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm  T* ET
 q
-1 0 0 1 20 0 cm
+1 0 0 1 6 -3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F3+0 10 Tf 12 TL (update requests to users.) Tj T* ET
+BT 1 0 0 1 0 2 Tm 8.101562 0 Td /F3+0 10 Tf 12 TL (\200) Tj T* -8.101562 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3+0 10 Tf 12 TL (Website can track which version people are using, can push update requests to users.) Tj T* ET
 Q
 Q
 q
@@ -14370,41 +14475,41 @@ q
 Q
 Q
 q
-1 0 0 1 40.01575 523.0394 cm
+1 0 0 1 40.01575 529.0394 cm
 Q
 q
-1 0 0 1 40.01575 469.0394 cm
+1 0 0 1 40.01575 475.0394 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 38 Tm 2.894203 Tw /F3+0 10 Tf 12 TL (The group discussed the FDA's and and Nightscout\202s shared goal of safety. The FDA hears the) Tj T* 0 Tw .271481 Tw (demand from patients for devices like Nightscout to exist, and doesn\202t have a particular problem with) Tj T* 0 Tw 1.912336 Tw (safe and effective devices of this kind coming to market. In fact, they want to make this happen) Tj T* 0 Tw (faster.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 40.01575 415.0394 cm
+1 0 0 1 40.01575 421.0394 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 38 Tm .788083 Tw /F3+0 10 Tf 12 TL (The FDA also recognizes the need for device interoperability to improve data access, along the lines) Tj T* 0 Tw 1.787804 Tw (of what Tidepool is working on. They noted recent progress on interoperability from CGM makers.) Tj T* 0 Tw 2.460629 Tw (Subsequent to the meeting, the FDA would like to hear from our community to help make sure) Tj T* 0 Tw (interoperability moves forward.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 40.01575 373.0394 cm
+1 0 0 1 40.01575 379.0394 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm .598447 Tw /F3+0 10 Tf 12 TL (The group discussed the FDA\202s desire that there be a single responsible party to ensure that nothing) Tj T* 0 Tw 2.554033 Tw (falls through the cracks. The FDA emphasized the need for one party to take responsibility. For) Tj T* 0 Tw (example, change) Tj T* ET
 Q
 Q
 q
-1 0 0 1 40.01575 103.0394 cm
+1 0 0 1 40.01575 109.0394 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 254 Tm .348203 Tw /F3+0 10 Tf 12 TL (The group discussed FDA\202s desire that there be a single responsible party to ensure that nothing falls) Tj T* 0 Tw .821937 Tw (through the cracks. The FDA emphasized the need for one party to take responsibility. For example,) Tj T* 0 Tw 1.772806 Tw (change control to determine when updates were ready to be implemented to general users, what) Tj T* 0 Tw .459958 Tw (problems need to be addressed and on what timeline, etc. should be adequately addressed. The FDA) Tj T* 0 Tw 2.051127 Tw (also asked about how problems are identified, reported, and addressed. They want to make sure) Tj T* 0 Tw 1.376625 Tw (there is a mechanism to handle, triage, and prioritize the response to complaints that might affect) Tj T* 0 Tw 1.691748 Tw (safety, to ensure that fixes can be distributed to people using the system, and to make sure that) Tj T* 0 Tw 4.665793 Tw (Nightscout is preventing unexpected complications from modifications. Nightscout stated that) Tj T* 0 Tw .433042 Tw (currently, how quickly a problem is addressed is determined by how quickly a developer picks up the) Tj T* 0 Tw .711362 Tw (issue and propose a solution. This may depend on the interest of the developers, the safety concern) Tj T* 0 Tw 4.237953 Tw (raised, and the complexity of the issue and its solution. The FDA discussed the benefits of) Tj T* 0 Tw 3.353791 Tw (implementing a process for evaluating the severity of issues and tailoring the speed at which) Tj T* 0 Tw .841236 Tw (solutions are developed to address the relative risk associated with the particular scenario. The FDA) Tj T* 0 Tw .193681 Tw (recognizes that Nightscout\202s existing methods and processes, while informal, appear to address some) Tj T* 0 Tw 1.46362 Tw (of these concerns, but would like to see further documentation of how Nightscout is doing so, and) Tj T* 0 Tw .75753 Tw (wants to ensure that there is someone ultimately responsible. FDA interests include what happens if) Tj T* 0 Tw 1.460609 Tw (developers do not \203jump\204 in quickly enough to develop solutions, the need to track issue severity,) Tj T* 0 Tw 3.390703 Tw (and concerns regarding the importance of reporting problems. Nightscout noted that they had) Tj T* 0 Tw 1.767288 Tw (determined that one person needed to be assigned as the lead. Ben West was voted by the core) Tj T* 0 Tw 2.706052 Tw (contributors to be the source code curator. FDA noted that was encouraging and that a similar) Tj T* 0 Tw 1.481233 Tw (approach could be more broadly implemented to address some of the FDA\202s safety and regulatory) Tj T* 0 Tw (concerns.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 40.01575 73.03937 cm
+1 0 0 1 40.01575 55.03937 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm .920712 Tw /F3+0 10 Tf 12 TL (The group discussed how Nightscout might be able to provide the FDA with better visibility into any) Tj T* 0 Tw .265922 Tw (events that affect patient safety. The FDA would welcome submissions from Nightscout to MedWatch,) Tj T* 0 Tw ET
+BT 1 0 0 1 0 38 Tm .920712 Tw /F3+0 10 Tf 12 TL (The group discussed how Nightscout might be able to provide the FDA with better visibility into any) Tj T* 0 Tw .265922 Tw (events that affect patient safety. The FDA would welcome submissions from Nightscout to MedWatch,) Tj T* 0 Tw 2.436233 Tw (especially if they can include as much detail as possible to see what was really going on. Such) Tj T* 0 Tw (processes will help Nightscout make decisions on how to improve the system.) Tj T* ET
 Q
 Q
 q
@@ -14425,25 +14530,18 @@ Q
 endstream
 endobj
 237 0 obj
-<< /Length 2796 >>
+<< /Length 2498 >>
 stream
 1 0 0 1 0 0 cm 
 q
-1 0 0 1 40.01575 763.0394 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 14 Tm 2.436233 Tw /F3+0 10 Tf 12 TL (especially if they can include as much detail as possible to see what was really going on. Such) Tj T* 0 Tw (processes will help Nightscout make decisions on how to improve the system.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 40.01575 721.0394 cm
+1 0 0 1 40.01575 751.0394 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm 1.212237 Tw /F3+0 10 Tf 12 TL (FDA requested that Nightscout begin working on a gap analysis to document what is already being) Tj T* 0 Tw 2.556712 Tw (covered, and which areas require improvements to come into compliance. The FDA requested a) Tj T* 0 Tw (follow-up meeting with Nightscout within a few months.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 40.01575 685.8394 cm
+1 0 0 1 40.01575 715.8394 cm
 q
 .8 .8 .8 RG
 .3 w
@@ -14455,13 +14553,13 @@ BT 1 0 0 1 0 3.2 Tm 19.2 TL .12549 .262745 .360784 rg /F1+0 16 Tf 19.2 TL (About
 Q
 Q
 q
-1 0 0 1 40.01575 655.8394 cm
+1 0 0 1 40.01575 685.8394 cm
 q
 BT 1 0 0 1 0 14 Tm 1.326494 Tw 12 TL 0 0 0 rg /F3+0 10 Tf 12 TL (In open source fashion, this document's ) Tj 0 0 .501961 rg (raw source) Tj 0 0 0 rg (, ) Tj 0 0 .501961 rg (pdf version ) Tj 0 0 0 rg (and an html rendering is ) Tj 0 0 .501961 rg (available) Tj T* 0 Tw (online) Tj 0 0 0 rg (. The purpose is to create a framework for having a discussion with the FDA.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 40.01575 615.8394 cm
+1 0 0 1 40.01575 645.8394 cm
 q
 .8 .8 .8 RG
 .3 w
@@ -14473,13 +14571,13 @@ BT 1 0 0 1 0 4 Tm 24 TL .12549 .262745 .360784 rg /F1+0 20 Tf 24 TL (Indices and
 Q
 Q
 q
-1 0 0 1 40.01575 603.8394 cm
+1 0 0 1 40.01575 633.8394 cm
 Q
 q
-1 0 0 1 40.01575 603.8394 cm
+1 0 0 1 40.01575 633.8394 cm
 Q
 q
-1 0 0 1 40.01575 591.8394 cm
+1 0 0 1 40.01575 621.8394 cm
 0 0 0 rg
 q
 1 0 0 1 6 -3 cm
@@ -14499,10 +14597,10 @@ q
 Q
 Q
 q
-1 0 0 1 40.01575 585.8394 cm
+1 0 0 1 40.01575 615.8394 cm
 Q
 q
-1 0 0 1 40.01575 573.8394 cm
+1 0 0 1 40.01575 603.8394 cm
 0 0 0 rg
 q
 1 0 0 1 6 -3 cm
@@ -14522,10 +14620,10 @@ q
 Q
 Q
 q
-1 0 0 1 40.01575 567.8394 cm
+1 0 0 1 40.01575 597.8394 cm
 Q
 q
-1 0 0 1 40.01575 555.8394 cm
+1 0 0 1 40.01575 585.8394 cm
 0 0 0 rg
 q
 1 0 0 1 6 -3 cm
@@ -14545,10 +14643,10 @@ q
 Q
 Q
 q
-1 0 0 1 40.01575 555.8394 cm
+1 0 0 1 40.01575 585.8394 cm
 Q
 q
-1 0 0 1 40.01575 555.8394 cm
+1 0 0 1 40.01575 585.8394 cm
 Q
 q
 1 0 0 1 34.01575 807.2126 cm
@@ -14863,30 +14961,30 @@ xref
 0001262583 00000 n
 0001271248 00000 n
 0001279268 00000 n
-0001287396 00000 n
-0001290250 00000 n
-0001290475 00000 n
-0001290513 00000 n
-0001290551 00000 n
-0001290589 00000 n
-0001290627 00000 n
-0001290665 00000 n
-0001290703 00000 n
-0001290741 00000 n
-0001290779 00000 n
-0001290817 00000 n
-0001290855 00000 n
-0001290893 00000 n
-0001290931 00000 n
-0001290969 00000 n
-0001291008 00000 n
-0001291047 00000 n
-0001291086 00000 n
+0001288220 00000 n
+0001290776 00000 n
+0001291001 00000 n
+0001291039 00000 n
+0001291077 00000 n
+0001291115 00000 n
+0001291153 00000 n
+0001291191 00000 n
+0001291229 00000 n
+0001291267 00000 n
+0001291305 00000 n
+0001291343 00000 n
+0001291381 00000 n
+0001291419 00000 n
+0001291457 00000 n
+0001291495 00000 n
+0001291534 00000 n
+0001291573 00000 n
+0001291612 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com)
  [(-\270/\215\023\374\232\255\017j\310\301DYu\363) (-\270/\215\023\374\232\255\017j\310\301DYu\363)]
  /Info 174 0 R /Root 173 0 R /Size 256 >>
 startxref
-1291125
+1291651
 %%EOF
