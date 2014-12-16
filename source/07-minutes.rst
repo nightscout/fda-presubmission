@@ -81,15 +81,22 @@ or distributed to end users.  Nightscout used an example of a current
 issue of incorrect time values to address questions such as:
 
   * How quickly are changes/problems addressed?
+
     - Determined by interest of developers and safety concerns
+
   * How is information on updates distributed?
+
     - Currently an informal process for development updates and
       checking
+
   * Who is responsible for code updates?
+
     - Ben currently triages, is the source code curator, coordinates
       efforts between developers.  This activity is currently
       voluntary and informal.
+
   * How are updates tracked?
+
     - Website can track which version people are using, can push
       update requests to users.
 
