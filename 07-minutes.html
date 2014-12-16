@@ -1,0 +1,284 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Meeting Minutes &mdash; Nightscout FDA presubmission 1.0.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Nightscout FDA presubmission 1.0.1 documentation" href="index.html" />
+    <link rel="prev" title="Feedback" href="06-feedback-methods.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="06-feedback-methods.html" title="Feedback"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Nightscout FDA presubmission 1.0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="meeting-minutes">
+<h1>Meeting Minutes<a class="headerlink" href="#meeting-minutes" title="Permalink to this headline">¶</a></h1>
+<p>What follows are minutes of the first Nightscout FDA Pre-submission
+Meeting which took place on October 8, 2014.</p>
+<div class="section" id="summary">
+<h2>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>FDA expressed interest in a continuing conversation related to
+the NightScout project</li>
+<li>While Medical Device regulations are applicable to the NightScout
+project, Medical device requirements are implemented to ensure
+patient safety and were written to be flexible to address all
+types of medical devices and device manufacturers.
+How these regulations can be met was discussed with the agnecy.</li>
+<li>Areas to be discussed – is there one responsible party? -</li>
+<li>How are design controls met during software development?</li>
+</ul>
+<blockquote>
+<div><ul class="simple">
+<li>How to fulfill post market requirements?</li>
+<li>What product claims are made?</li>
+<li>How are data security and privacy handled?</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>FDA and NightScout project members discussed performing a gap
+analysis regarding the regulations for the next discussion.
+Meeting time TBD.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="attendees">
+<h2>Attendees<a class="headerlink" href="#attendees" title="Permalink to this headline">¶</a></h2>
+<p>Participant introductions of attendees:</p>
+<div class="section" id="cgm-in-the-cloud-nightscout">
+<h3>CGM in the Cloud / Nightscout<a class="headerlink" href="#cgm-in-the-cloud-nightscout" title="Permalink to this headline">¶</a></h3>
+<p>John Costik, Ping Fang, Ben West, and Scott
+Leibrand</p>
+<div class="section" id="your-diabetes-may-vary">
+<h4>Your Diabetes May Vary<a class="headerlink" href="#your-diabetes-may-vary" title="Permalink to this headline">¶</a></h4>
+<p>Bennet Dunlap</p>
+</div>
+<div class="section" id="invited-guests">
+<h4>Invited guests<a class="headerlink" href="#invited-guests" title="Permalink to this headline">¶</a></h4>
+<p>Medtronic: Mark O’Donnell</p>
+</div>
+</div>
+<div class="section" id="fda">
+<h3>FDA<a class="headerlink" href="#fda" title="Permalink to this headline">¶</a></h3>
+<p>Beth Stephen, Don St. Pierre, Robert Sauer,
+Stayce Beck, Courtney Lias, Katherine Serrano,
+Suzanne Schwartz, and Ariel Seeley</p>
+</div>
+</div>
+<div class="section" id="discussion-topics">
+<h2>Discussion Topics<a class="headerlink" href="#discussion-topics" title="Permalink to this headline">¶</a></h2>
+<p>Introduction:
+FDA requested some background discussion on Nightscout&#8217;s software and
+project, history, open-source development methodology, and some
+existing controls, including general project oversight, how system
+updates are handled, and directions available to users.</p>
+<p>FDA provided some initial comments to emphasize that FDA doesn&#8217;t have
+a bias against the open source route, nor is Nightscout the first time
+FDA has seen open source software.  FDA emphasized that a key tenet of
+device regulation is that some entity be responsible for assuring the
+safety and effectiveness of the device and that postmarket safety is
+adequately monitored and that any potential problems are adequately
+addressed.  FDA further emphasized that the requirements for medical
+devices were implemented to ensure patient safety and were written to
+be flexible to address all types of medical devices and device makers,
+and that FDA believes it is acheivable for Nightscout to meet
+applicable requirements even with non-traditional methods of
+development.</p>
+<p>FDA asked questions about Nightscout&#8217;s current processes and
+how/whether they currently control software versions that go out to
+general use of Nightscout.  Further questions were discussed about how
+Nightscout handles topics that should be addressed in device
+development, including quality, safety, and responsibility (e.g.
+Design Controls, Change Controls, Postmarket Surveillance, Claims, and
+Data/Cybersecurity) were also discussed.  Nightscout provided a
+description of how core developers maintain the main community
+version, and review and test new features before they are incoportated
+or distributed to end users.  Nightscout used an example of a current
+issue of incorrect time values to address questions such as:</p>
+<blockquote>
+<div><ul>
+<li><p class="first">How quickly are changes/problems addressed?
+- Determined by interest of developers and safety concerns</p>
+</li>
+<li><p class="first">How is information on updates distributed?
+- Currently an informal process for development updates and</p>
+<blockquote>
+<div><p>checking</p>
+</div></blockquote>
+</li>
+<li><p class="first">Who is responsible for code updates?
+- Ben currently triages, is the source code curator, coordinates</p>
+<blockquote>
+<div><p>efforts between developers.  This activity is currently
+voluntary and informal.</p>
+</div></blockquote>
+</li>
+<li><p class="first">How are updates tracked?
+- Website can track which version people are using, can push</p>
+<blockquote>
+<div><p>update requests to users.</p>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+<p>The group discussed the FDA&#8217;s and and Nightscout’s shared goal of safety. The
+FDA hears the demand from patients for devices like Nightscout to
+exist, and doesn’t have a particular problem with safe and effective
+devices of this kind
+coming to market.  In fact, they want to make this happen faster.</p>
+<p>The FDA also
+recognizes the need for device interoperability to improve data
+access, along the lines of what Tidepool is working on.
+They noted
+recent progress on interoperability from CGM makers.
+Subsequent to the meeting, the FDA would like to hear from our
+community to help make sure interoperability moves forward.</p>
+<p>The group discussed the
+FDA’s desire that there be a single responsible party to
+ensure that nothing falls through the cracks.  The FDA emphasized the
+need for one party to take responsibility.  For example, change</p>
+<p>The group discussed FDA’s desire that there be a single responsible party to
+ensure that nothing falls through the cracks. The FDA emphasized the need for
+one party to take responsibility. For example, change control to determine when
+updates were ready to be implemented to general users, what problems need to be
+addressed and on what timeline, etc. should be adequately addressed. The FDA
+also asked about how problems are identified, reported, and addressed. They
+want to make sure there is a mechanism to handle, triage, and prioritize the
+response to complaints that might affect safety, to ensure that fixes can be
+distributed to people using the system, and to make sure that Nightscout is
+preventing unexpected complications from modifications.  Nightscout stated that
+currently, how quickly a problem is addressed is determined by how quickly a
+developer picks up the issue and propose a solution. This may depend on the
+interest of the developers, the safety concern raised, and the complexity of
+the issue and its solution. The FDA discussed the benefits of implementing a
+process for evaluating the severity of issues and tailoring the speed at which
+solutions are developed to address the relative risk associated with the
+particular scenario. The FDA recognizes that Nightscout’s existing methods and
+processes, while informal, appear to address some of these concerns, but would
+like to see further documentation of how Nightscout is doing so, and wants to
+ensure that there is someone ultimately responsible. FDA interests include what
+happens if developers do not “jump” in quickly enough to develop solutions, the
+need to track issue severity, and concerns regarding the importance of
+reporting problems. Nightscout noted that they had determined that one person
+needed to be assigned as the lead. Ben West was voted by the core contributors
+to be the source code curator. FDA noted that was encouraging and that a
+similar approach could be more broadly implemented to address some of the FDA’s
+safety and regulatory concerns.</p>
+<p>The group discussed how Nightscout might be able to provide the FDA with better
+visibility into any events that affect patient safety. The FDA would welcome
+submissions from Nightscout to MedWatch, especially if they can include as much
+detail as possible to see what was really going on. Such processes will help
+Nightscout make decisions on how to improve the system.</p>
+<p>FDA requested that Nightscout begin working on a gap analysis to document what
+is already being covered, and which areas require improvements to come into
+compliance. The FDA requested a follow-up meeting with Nightscout within a few
+months.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Meeting Minutes</a><ul>
+<li><a class="reference internal" href="#summary">Summary</a></li>
+<li><a class="reference internal" href="#attendees">Attendees</a><ul>
+<li><a class="reference internal" href="#cgm-in-the-cloud-nightscout">CGM in the Cloud / Nightscout</a><ul>
+<li><a class="reference internal" href="#your-diabetes-may-vary">Your Diabetes May Vary</a></li>
+<li><a class="reference internal" href="#invited-guests">Invited guests</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#fda">FDA</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#discussion-topics">Discussion Topics</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="06-feedback-methods.html"
+                        title="previous chapter">Feedback</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/07-minutes.txt"
+           rel="nofollow">Show Source</a></li>
+    <li><a href="https://github.com/nightscout/fda-presubmission/blob/master/source/07-minutes.rst"
+           rel="nofollow">Show on GitHub</a></li>
+    <li><a href="https://github.com/nightscout/fda-presubmission/edit/master/source/07-minutes.rst"
+           rel="nofollow">Edit on GitHub</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="06-feedback-methods.html" title="Feedback"
+             >previous</a> |</li>
+        <li><a href="index.html">Nightscout FDA presubmission 1.0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2014, Nightscout contributors.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
+    </div>
+  </body>
+</html>
