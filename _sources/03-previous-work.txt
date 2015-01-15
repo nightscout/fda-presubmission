@@ -1,12 +1,21 @@
 
-Previous work
-=============
+Process updates
+===============
 
-A number of informal discussions have taken place between the FDA and
-the Nightscout contributors.  The discussions have revealed a need to
-establish a framework for open source authors and FDA to work
-together in order to best protect and promote public safety.
-We seek the FDA's guidance in finding similar frameworks from other
-regulated or life-critical areas such as defense, aviation, and
-automotive industries.
+A brief synopsis of the Nightscout process is discussed here.  For record
+keeping, a more detailed look at each of the processes discussed is kept in
+process-controls:
+
+* http://process-controls.readthedocs.org/en/latest/
+* https://github.com/nightscout/process-controls/tree/master/source
+
+The in depth analysis includes a description of the quality controls
+http://process-controls.readthedocs.org/en/latest/controls/index.html As well
+as log of
+http://process-controls.readthedocs.org/en/latest/operations/index.html
+operations and how the process has influenced or changed in response.
+
+These documents are to help follow up with the gap analysis requested in
+October's meeting.  When they reach 1.0.0 status, they will be provided to the
+FDA through formal submission channels.
 

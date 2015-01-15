@@ -16,8 +16,6 @@ Contents:
   02-proposed-use
   03-previous-work
   04-development-overview
-  05-specific-questions
-  06-feedback-methods
   07-minutes
 
 
