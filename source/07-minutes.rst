@@ -8,17 +8,22 @@ Summary
 -------
   *  FDA expressed interest in a continuing conversation related to
      the Nightscout project
+
   *  While Medical Device regulations are applicable to the Nightscout
      project, Medical device requirements are implemented to ensure
      patient safety and were written to be flexible to address all
      types of medical devices and device manufacturers.
      How these regulations can be met was discussed with the agency.
+
   *  Areas to be discussed – is there one responsible party? -
+
   *  How are design controls met during software development?
+
     - How to fulfill post market requirements?
     - What product claims are made?
     - How are data security and privacy handled?
-  *  FDA and NightScout project members discussed performing a gap
+
+  *  FDA and Nightscout project members discussed performing a gap
      analysis regarding the regulations for the next discussion.
      Meeting time TBD.
 
