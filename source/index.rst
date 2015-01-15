@@ -6,8 +6,6 @@
 Nightscout FDA presubmission
 ============================
 
-Contents:
-
 .. toctree::
    :maxdepth: 2
 
