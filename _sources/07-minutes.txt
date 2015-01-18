@@ -7,18 +7,23 @@ Meeting which took place on October 8, 2014.
 Summary
 -------
   *  FDA expressed interest in a continuing conversation related to
-     the NightScout project
-  *  While Medical Device regulations are applicable to the NightScout
+     the Nightscout project
+
+  *  While Medical Device regulations are applicable to the Nightscout
      project, Medical device requirements are implemented to ensure
      patient safety and were written to be flexible to address all
      types of medical devices and device manufacturers.
-     How these regulations can be met was discussed with the agnecy.
+     How these regulations can be met was discussed with the agency.
+
   *  Areas to be discussed – is there one responsible party? -
+
   *  How are design controls met during software development?
+
     - How to fulfill post market requirements?
     - What product claims are made?
     - How are data security and privacy handled?
-  *  FDA and NightScout project members discussed performing a gap
+
+  *  FDA and Nightscout project members discussed performing a gap
      analysis regarding the regulations for the next discussion.
      Meeting time TBD.
 
@@ -114,13 +119,6 @@ They noted
 recent progress on interoperability from CGM makers.
 Subsequent to the meeting, the FDA would like to hear from our
 community to help make sure interoperability moves forward.
-
-The group discussed the 
-FDA’s desire that there be a single responsible party to
-ensure that nothing falls through the cracks.  The FDA emphasized the
-need for one party to take responsibility.  For example, change 
-
-
 
 The group discussed FDA’s desire that there be a single responsible party to
 ensure that nothing falls through the cracks. The FDA emphasized the need for

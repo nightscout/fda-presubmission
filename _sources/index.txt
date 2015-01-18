@@ -4,9 +4,7 @@
    contain the root `toctree` directive.
 
 Nightscout FDA presubmission
-===================================
-
-Contents:
+============================
 
 .. toctree::
    :maxdepth: 2

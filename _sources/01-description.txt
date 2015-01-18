@@ -56,7 +56,7 @@ display of the Dexcom receiver.
 The web display works on most modern web browsers.
 
 android-uploader
-###############
+################
 
 `android-uploader`_ is an Android application implemented in java.  The
 application starts when a Dexcom receiver is detected using the
